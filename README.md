@@ -3,6 +3,12 @@
 
 **English:** A structured knowledge base and AI chatbot agent for navigating Saudi government services seamlessly in Arabic.
 
+## Preview
+
+![Saudi Gov Navigator interface preview](docs/screenshot.png)
+
+واجهة مقترحة تعرض تجربة البحث عن الخدمات الحكومية السعودية على الويب والجوال.
+
 ---
 
 ## 📖 النسخة العربية
@@ -77,6 +83,24 @@ python -m saudi_gov.chatbot
 ```
 👤 أنت: كيف أجدد جواز سفري؟
 🤖 الوكيل: أهلاً! يمكنك تجديد جواز السفر من خلال منصة أبشر...
+```
+
+### 1.1 واجهة ويب محلية
+
+```bash
+python -m saudi_gov.webapp --host 127.0.0.1 --port 8000
+```
+
+ثم افتح:
+
+```text
+http://127.0.0.1:8000
+```
+
+يمكنك أيضاً استخدام الأمر المختصر بعد التثبيت:
+
+```bash
+saudi-gov-web --port 8000
 ```
 
 ### 2. الاستعلام البرمجي

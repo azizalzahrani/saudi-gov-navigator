@@ -17,4 +17,5 @@ __all__ = [
     "agents",
     "search",
     "chatbot",
+    "webapp",
 ]

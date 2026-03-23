@@ -43,6 +43,7 @@ setup(
     entry_points={
         "console_scripts": [
             "saudi-gov-navigator=saudi_gov.chatbot:main",
+            "saudi-gov-web=saudi_gov.webapp:main",
         ],
     },
     project_urls={
