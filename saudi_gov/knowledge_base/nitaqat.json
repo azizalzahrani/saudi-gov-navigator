@@ -1,0 +1,427 @@
+{
+  "platform": "نظام نطاقات",
+  "platform_ar": "نطاقات",
+  "platform_en": "Nitaqat System",
+  "platform_url": "https://www.qiwa.sa/en/nitaqat",
+  "platform_description_ar": "نظام نطاقات لقياس مستويات السعودة في الشركات",
+  "platform_description_en": "Nitaqat system to measure Saudization levels in companies",
+  "services": [
+    {
+      "id": "nitaqat_band_calculation",
+      "name_ar": "حساب النطاق والسعودة",
+      "name_en": "Nitaqat Band Calculation",
+      "category": "السعودة",
+      "category_en": "Saudization",
+      "description_ar": "حساب نطاق السعودة للشركة وفقاً لنسبة الموظفين السعوديين",
+      "description_en": "Calculate company Saudization band based on Saudi employee ratio",
+      "requirements": [
+        "عدد الموظفين الكلي",
+        "عدد الموظفين السعوديين",
+        "تصنيف الشركة",
+        "القطاع الاقتصادي"
+      ],
+      "requirements_en": [
+        "Total employees",
+        "Saudi employees count",
+        "Company classification",
+        "Economic sector"
+      ],
+      "steps": [
+        "الدخول إلى قوى العمل",
+        "اختيار 'نطاقات السعودة'",
+        "إدخال عدد الموظفين",
+        "إدخال عدد السعوديين",
+        "تحديد القطاع",
+        "حساب النسبة المئوية",
+        "معرفة النطاق الحالي",
+        "رؤية الحوافز والعقوبات"
+      ],
+      "steps_en": [
+        "Login to Qiwa",
+        "Select 'Nitaqat'",
+        "Enter total employees",
+        "Enter Saudi count",
+        "Specify sector",
+        "Calculate percentage",
+        "View current band",
+        "See incentives/penalties"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "خدمة مجانية"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free service"
+      },
+      "processing_time": "فوري",
+      "processing_time_en": "Immediate",
+      "common_mistakes": [
+        "عد خاطئ للموظفين",
+        "عدم احتساب الموظفين الجدد",
+        "قطاع اقتصادي خاطئ",
+        "عدم تحديث البيانات دورياً"
+      ],
+      "common_mistakes_en": [
+        "Wrong employee count",
+        "Not counting new hires",
+        "Wrong economic sector",
+        "Not updating data regularly"
+      ],
+      "tips": [
+        "عد دقيق للموظفين",
+        "احدّث البيانات شهرياً",
+        "القطاع الصحيح للحساب",
+        "راقب النطاق والرتبة",
+        "استشر الموارد البشرية"
+      ],
+      "tips_en": [
+        "Accurate employee count",
+        "Update data monthly",
+        "Correct sector classification",
+        "Monitor band and rank",
+        "Consult HR department"
+      ],
+      "eligibility": {
+        "nationality": "صاحب شركة",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "شركة مسجلة نشطة"
+      }
+    },
+    {
+      "id": "nitaqat_band_platinum",
+      "name_ar": "نطاق بلاتينيوم (الممتاز)",
+      "name_en": "Platinum Band (Excellent)",
+      "category": "النطاقات",
+      "category_en": "Bands",
+      "description_ar": "أعلى نطاق - يتطلب نسبة سعودة عالية جداً",
+      "description_en": "Highest band - requires very high Saudization ratio",
+      "requirements": [
+        "نسبة سعودة تتجاوز 90%",
+        "توظيف منظم للسعوديين",
+        "تدريب وتطوير",
+        "رواتب تنافسية"
+      ],
+      "requirements_en": [
+        "Saudization ratio over 90%",
+        "Organized hiring of Saudis",
+        "Training and development",
+        "Competitive wages"
+      ],
+      "steps": [
+        "توظيف أعداد كبيرة من السعوديين",
+        "توفير تدريب متقدم",
+        "رواتب تتجاوز الحد الأدنى",
+        "ترقيات منتظمة",
+        "مزايا إضافية",
+        "متابعة النسبة شهرياً",
+        "الحفاظ على الأداء"
+      ],
+      "steps_en": [
+        "Hire large numbers of Saudis",
+        "Provide advanced training",
+        "Wages above minimum",
+        "Regular promotions",
+        "Additional benefits",
+        "Track ratio monthly",
+        "Maintain performance"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "لا توجد رسوم"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "No fees"
+      },
+      "processing_time": "مستمر",
+      "processing_time_en": "Ongoing",
+      "common_mistakes": [
+        "عدم الحفاظ على النسبة",
+        "نقص التدريب",
+        "رواتب منخفضة",
+        "تقليل عدد السعوديين"
+      ],
+      "common_mistakes_en": [
+        "Not maintaining ratio",
+        "Insufficient training",
+        "Low wages",
+        "Reducing Saudi hires"
+      ],
+      "tips": [
+        "استراتيجية توظيف طويلة الأمد",
+        "استثمار في التطوير",
+        "رواتب جذابة",
+        "بيئة عمل متقدمة",
+        "قيادة سعودية قوية"
+      ],
+      "tips_en": [
+        "Long-term hiring strategy",
+        "Invest in development",
+        "Attractive salaries",
+        "Advanced work environment",
+        "Strong Saudi leadership"
+      ],
+      "eligibility": {
+        "nationality": "صاحب شركة",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "نسبة سعودة ممتازة"
+      }
+    },
+    {
+      "id": "nitaqat_band_green",
+      "name_ar": "نطاق أخضر (متوافق)",
+      "name_en": "Green Band (Compliant)",
+      "category": "النطاقات",
+      "category_en": "Bands",
+      "description_ar": "نطاق متوافق مع متطلبات السعودة",
+      "description_en": "Compliant band meeting Saudization requirements",
+      "requirements": [
+        "نسبة سعودة من 60-90%",
+        "عدد معقول من الموظفين السعوديين",
+        "توظيف منتظم",
+        "امتثال للقوانين"
+      ],
+      "requirements_en": [
+        "Saudization ratio 60-90%",
+        "Reasonable Saudi employees",
+        "Regular hiring",
+        "Legal compliance"
+      ],
+      "steps": [
+        "توظيف موظفين سعوديين",
+        "الامتثال للنسب المطلوبة",
+        "توفير التدريب الأساسي",
+        "رواتب معقولة",
+        "متابعة دورية",
+        "الحفاظ على الامتثال"
+      ],
+      "steps_en": [
+        "Hire Saudi employees",
+        "Meet required ratios",
+        "Provide basic training",
+        "Fair wages",
+        "Regular monitoring",
+        "Maintain compliance"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "لا توجد عقوبات"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "No penalties"
+      },
+      "processing_time": "مستمر",
+      "processing_time_en": "Ongoing",
+      "common_mistakes": [
+        "انخفاض النسبة تحت الحد",
+        "عدم التدريب",
+        "عدم الامتثال",
+        "إهمال الموظفين"
+      ],
+      "common_mistakes_en": [
+        "Ratio dropping below minimum",
+        "No training",
+        "Non-compliance",
+        "Employee neglect"
+      ],
+      "tips": [
+        "حافظ على النسبة المطلوبة",
+        "استثمر في التدريب",
+        "بيئة عمل إيجابية",
+        "مسارات وظيفية واضحة",
+        "مراقبة مستمرة"
+      ],
+      "tips_en": [
+        "Maintain required ratio",
+        "Invest in training",
+        "Positive work environment",
+        "Clear career paths",
+        "Continuous monitoring"
+      ],
+      "eligibility": {
+        "nationality": "صاحب شركة",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "نسبة سعودة معقولة"
+      }
+    },
+    {
+      "id": "nitaqat_band_red",
+      "name_ar": "نطاق أحمر (غير متوافق)",
+      "name_en": "Red Band (Non-Compliant)",
+      "category": "النطاقات",
+      "category_en": "Bands",
+      "description_ar": "نطاق غير متوافق - يستحق عقوبات",
+      "description_en": "Non-compliant band - subject to penalties",
+      "requirements": [
+        "نسبة سعودة أقل من 60%",
+        "عدم الامتثال للمتطلبات",
+        "نقص الموظفين السعوديين",
+        "عدم الالتزام بالقوانين"
+      ],
+      "requirements_en": [
+        "Saudization below 60%",
+        "Non-compliance",
+        "Insufficient Saudi staff",
+        "Non-compliance with laws"
+      ],
+      "steps": [
+        "تقييم الوضع الحالي",
+        "زيادة توظيف السعوديين",
+        "وضع خطة تحسين",
+        "توفير التدريب",
+        "زيادة الرواتب",
+        "مراقبة النطاق",
+        "الانتقال للأخضر"
+      ],
+      "steps_en": [
+        "Assess current status",
+        "Increase Saudi hiring",
+        "Create improvement plan",
+        "Provide training",
+        "Increase wages",
+        "Monitor band",
+        "Move to green"
+      ],
+      "fees": {
+        "amount": "متغيرة",
+        "currency": "SAR",
+        "note": "عقوبات مالية وقيود على التوظيف"
+      },
+      "fees_en": {
+        "amount": "Varies",
+        "currency": "SAR",
+        "note": "Financial penalties and hiring restrictions"
+      },
+      "processing_time": "مستمر",
+      "processing_time_en": "Ongoing",
+      "common_mistakes": [
+        "تأخر في تحسين النسبة",
+        "عدم الالتزام بالخطة",
+        "استيراد عمال دون تصريح",
+        "عدم التدريب"
+      ],
+      "common_mistakes_en": [
+        "Delayed improvement",
+        "Not following plan",
+        "Unauthorized hiring",
+        "No training"
+      ],
+      "tips": [
+        "خطة تحسين فوراً",
+        "زيادة سريعة للسعوديين",
+        "التدريب المكثف",
+        "رواتب تنافسية",
+        "استشارة متخصصة",
+        "الانتقال للأخضر بسرعة"
+      ],
+      "tips_en": [
+        "Immediate improvement plan",
+        "Rapid Saudi hiring",
+        "Intensive training",
+        "Competitive wages",
+        "Specialist consultation",
+        "Move to green quickly"
+      ],
+      "eligibility": {
+        "nationality": "صاحب شركة",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "نسبة سعودة منخفضة"
+      }
+    },
+    {
+      "id": "nitaqat_incentive_programs",
+      "name_ar": "برامج الحوافز والدعم",
+      "name_en": "Incentive and Support Programs",
+      "category": "الحوافز",
+      "category_en": "Incentives",
+      "description_ar": "برامج دعم وحوافز للشركات الملتزمة بالسعودة",
+      "description_en": "Support and incentive programs for companies committed to Saudization",
+      "requirements": [
+        "التحاق بنطاق أخضر أو بلاتينيوم",
+        "التدريب المنتظم",
+        "رواتب تنافسية",
+        "بيئة عمل جيدة"
+      ],
+      "requirements_en": [
+        "Green or Platinum band status",
+        "Regular training",
+        "Competitive wages",
+        "Good work environment"
+      ],
+      "steps": [
+        "الوصول لنطاق أخضر",
+        "التقديم لبرامج الحوافز",
+        "استيفاء شروط البرنامج",
+        "الحصول على دعم مالي",
+        "الاستفادة من التدريب",
+        "الحصول على شهادات",
+        "التقدم لبلاتينيوم"
+      ],
+      "steps_en": [
+        "Reach green band",
+        "Apply for incentives",
+        "Meet program requirements",
+        "Get financial support",
+        "Access training",
+        "Get certificates",
+        "Advance to Platinum"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "حوافز وليس رسوم"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Incentives not fees"
+      },
+      "processing_time": "30-60 يوم",
+      "processing_time_en": "30-60 days",
+      "common_mistakes": [
+        "عدم الالتزام بالشروط",
+        "انخفاض مستوى الامتثال",
+        "عدم استخدام الحوافز",
+        "عدم المتابعة"
+      ],
+      "common_mistakes_en": [
+        "Not meeting conditions",
+        "Dropping compliance level",
+        "Not using incentives",
+        "Lack of follow-up"
+      ],
+      "tips": [
+        "احرص على الالتزام الدائم",
+        "استفد من جميع البرامج",
+        "التدريب المستمر",
+        "تطوير الموظفين",
+        "الحفاظ على الرتبة"
+      ],
+      "tips_en": [
+        "Maintain continuous compliance",
+        "Use all programs",
+        "Ongoing training",
+        "Employee development",
+        "Maintain high rank"
+      ],
+      "eligibility": {
+        "nationality": "صاحب شركة ملتزم",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "نطاق أخضر فما فوق"
+      }
+    }
+  ]
+}

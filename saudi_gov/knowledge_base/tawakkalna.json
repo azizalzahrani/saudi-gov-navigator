@@ -1,0 +1,415 @@
+{
+  "platform": "تواصل",
+  "platform_ar": "تواصل",
+  "platform_en": "Tawakkalna",
+  "platform_url": "https://tawakkalna.sa",
+  "platform_description_ar": "تطبيق تواصل الوطني للخدمات الحكومية والهوية الرقمية",
+  "platform_description_en": "Tawakkalna mobile app for government services and digital identity",
+  "services": [
+    {
+      "id": "tawakkalna_digital_id",
+      "name_ar": "تفعيل الهوية الرقمية",
+      "name_en": "Digital ID Activation",
+      "category": "الهوية الرقمية",
+      "category_en": "Digital Identity",
+      "description_ar": "خدمة تفعيل الهوية الرقمية عبر تطبيق تواصل",
+      "description_en": "Service to activate digital ID through Tawakkalna app",
+      "requirements": [
+        "تطبيق تواصل مثبت",
+        "بطاقة الهوية الوطنية أو الإقامة",
+        "بيانات الجوال",
+        "بريد إلكتروني نشط",
+        "كلمة مرور قوية"
+      ],
+      "requirements_en": [
+        "Tawakkalna app installed",
+        "National ID or Iqama",
+        "Mobile number",
+        "Active email",
+        "Strong password"
+      ],
+      "steps": [
+        "تحميل تطبيق تواصل من المتجر",
+        "فتح التطبيق والضغط على 'تسجيل جديد'",
+        "إدخال رقم الهوية أو الإقامة",
+        "التحقق من الرقم المرسل للجوال",
+        "إدخال بيانات شخصية إضافية",
+        "تحديد كلمة مرور قوية",
+        "تفعيل البريد الإلكتروني",
+        "إكمال التسجيل والتفعيل"
+      ],
+      "steps_en": [
+        "Download Tawakkalna from app store",
+        "Open app and tap 'New Registration'",
+        "Enter ID or Iqama number",
+        "Verify SMS code",
+        "Enter additional personal data",
+        "Set strong password",
+        "Activate email",
+        "Complete registration"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "خدمة مجانية"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free service"
+      },
+      "processing_time": "فوري",
+      "processing_time_en": "Immediate",
+      "common_mistakes": [
+        "خطأ في إدخال رقم الهوية",
+        "عدم تأكيد البريد الإلكتروني",
+        "كلمة مرور ضعيفة",
+        "عدم استكمال البيانات"
+      ],
+      "common_mistakes_en": [
+        "Wrong ID number entry",
+        "Not confirming email",
+        "Weak password",
+        "Incomplete data"
+      ],
+      "tips": [
+        "استخدم بريد إلكتروني تتذكره",
+        "احفظ كلمة المرور في مكان آمن",
+        "فعّل المصادقة الثنائية",
+        "حدّث الهوية الرقمية دورياً"
+      ],
+      "tips_en": [
+        "Use email you remember",
+        "Save password securely",
+        "Enable two-factor auth",
+        "Update digital ID regularly"
+      ],
+      "eligibility": {
+        "nationality": "سعودي ووافد",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "بطاقة هوية سارية"
+      }
+    },
+    {
+      "id": "tawakkalna_travel_permit",
+      "name_ar": "تصريح التنقل والسفر",
+      "name_en": "Travel Permit",
+      "category": "التصاريح",
+      "category_en": "Permits",
+      "description_ar": "تطبيق تواصل يصدر تصاريح التنقل والسفر رقمياً",
+      "description_en": "Tawakkalna issues digital travel permits",
+      "requirements": [
+        "تطبيق تواصل مفعل",
+        "هوية رقمية نشطة",
+        "بيانات صحيحة",
+        "الامتثال للشروط"
+      ],
+      "requirements_en": [
+        "Active Tawakkalna app",
+        "Active digital ID",
+        "Correct data",
+        "Compliance with conditions"
+      ],
+      "steps": [
+        "فتح تطبيق تواصل",
+        "اختيار 'التصاريح'",
+        "اختيار 'طلب تصريح تنقل'",
+        "ملء البيانات المطلوبة",
+        "تحديد النقاط (من وإلى)",
+        "تحديد التاريخ والوقت",
+        "إرسال الطلب",
+        "الحصول على التصريح رقمياً"
+      ],
+      "steps_en": [
+        "Open Tawakkalna",
+        "Select 'Permits'",
+        "Choose 'Travel Permit'",
+        "Fill required data",
+        "Specify locations",
+        "Set date and time",
+        "Submit request",
+        "Get digital permit"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free"
+      },
+      "processing_time": "فوري",
+      "processing_time_en": "Immediate",
+      "common_mistakes": [
+        "بيانات موقع خاطئة",
+        "وقت غير صحيح",
+        "عدم الامتثال للقيود",
+        "تصريح منتهي الصلاحية"
+      ],
+      "common_mistakes_en": [
+        "Wrong location data",
+        "Incorrect time",
+        "Non-compliance",
+        "Expired permit"
+      ],
+      "tips": [
+        "التصريح صالح حسب الفترة المحددة",
+        "احمل الجوال معك للتحقق",
+        "التصريح يظهر في الخريطة",
+        "قد تحتاج تصريح جديد لرحلة أخرى"
+      ],
+      "tips_en": [
+        "Permit valid for specified period",
+        "Keep phone for verification",
+        "Permit shows on map",
+        "May need new permit for another trip"
+      ],
+      "eligibility": {
+        "nationality": "سعودي ووافد",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "هوية رقمية فعالة"
+      }
+    },
+    {
+      "id": "tawakkalna_health_certificate",
+      "name_ar": "شهادة صحية",
+      "name_en": "Health Certificate",
+      "category": "الصحة",
+      "category_en": "Health",
+      "description_ar": "إصدار شهادات صحية للسفر والعمل",
+      "description_en": "Issue health certificates for travel and work",
+      "requirements": [
+        "تطبيق تواصل مفعل",
+        "بيانات صحيحة",
+        "الفحص الطبي إن لزم",
+        "التطعيمات المطلوبة"
+      ],
+      "requirements_en": [
+        "Active Tawakkalna app",
+        "Correct data",
+        "Medical exam if needed",
+        "Required vaccinations"
+      ],
+      "steps": [
+        "فتح تطبيق تواصل",
+        "اختيار 'الصحة'",
+        "اختيار 'شهادة صحية'",
+        "اختيار نوع الشهادة",
+        "الإجابة على الأسئلة الطبية",
+        "إرسال الطلب",
+        "الحصول على الشهادة رقمياً"
+      ],
+      "steps_en": [
+        "Open Tawakkalna",
+        "Select 'Health'",
+        "Choose 'Health Certificate'",
+        "Select certificate type",
+        "Answer health questions",
+        "Submit request",
+        "Get digital certificate"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free"
+      },
+      "processing_time": "فوري لمحتاج",
+      "processing_time_en": "Immediate if eligible",
+      "common_mistakes": [
+        "معلومات صحية غير صحيحة",
+        "عدم اكتمال اللقاحات",
+        "عدم التحديث الدوري"
+      ],
+      "common_mistakes_en": [
+        "Incorrect health info",
+        "Incomplete vaccinations",
+        "Not updating regularly"
+      ],
+      "tips": [
+        "احدّث المعلومات الصحية دورياً",
+        "تأكد من التطعيمات المطلوبة",
+        "احتفظ بنسخة من الشهادة",
+        "قد تحتاج لشهادة جديدة للسفر"
+      ],
+      "tips_en": [
+        "Update health info regularly",
+        "Ensure required vaccinations",
+        "Keep certificate copy",
+        "May need new certificate for travel"
+      ],
+      "eligibility": {
+        "nationality": "سعودي ووافد",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "بيانات صحية صحيحة"
+      }
+    },
+    {
+      "id": "tawakkalna_dependent_services",
+      "name_ar": "خدمات المعالين",
+      "name_en": "Dependent Services",
+      "category": "الأسرة",
+      "category_en": "Family",
+      "description_ar": "إدارة خدمات المعالين والأسرة عبر تواصل",
+      "description_en": "Manage dependent and family services through Tawakkalna",
+      "requirements": [
+        "تطبيق تواصل مفعل",
+        "هوية الرب الأسرة",
+        "بيانات المعالين",
+        "وثائق العلاقة"
+      ],
+      "requirements_en": [
+        "Active Tawakkalna",
+        "Head of family ID",
+        "Dependent data",
+        "Relationship documents"
+      ],
+      "steps": [
+        "فتح تطبيق تواصل",
+        "اختيار 'الأسرة'",
+        "اختيار 'المعالين'",
+        "إضافة بيانات المعالين",
+        "رفع الوثائق المطلوبة",
+        "التحقق من العلاقة",
+        "حفظ بيانات المعالين"
+      ],
+      "steps_en": [
+        "Open Tawakkalna",
+        "Select 'Family'",
+        "Choose 'Dependents'",
+        "Add dependent data",
+        "Upload documents",
+        "Verify relationship",
+        "Save dependent data"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free"
+      },
+      "processing_time": "فوري",
+      "processing_time_en": "Immediate",
+      "common_mistakes": [
+        "بيانات المعالين غير صحيحة",
+        "عدم توفير الوثائق",
+        "عدم تحديث البيانات"
+      ],
+      "common_mistakes_en": [
+        "Incorrect dependent data",
+        "Missing documents",
+        "Not updating data"
+      ],
+      "tips": [
+        "أضف جميع المعالين المسموح",
+        "احتفظ بالوثائق المرتبطة",
+        "حدّث البيانات دورياً",
+        "قد تحتاج إلى معرّف للتعديلات"
+      ],
+      "tips_en": [
+        "Add all allowed dependents",
+        "Keep related documents",
+        "Update regularly",
+        "May need ID for changes"
+      ],
+      "eligibility": {
+        "nationality": "سعودي",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "رب أسرة معترف به"
+      }
+    },
+    {
+      "id": "tawakkalna_notifications",
+      "name_ar": "الإشعارات والتنبيهات",
+      "name_en": "Notifications and Alerts",
+      "category": "الخدمات الإدارية",
+      "category_en": "Administrative",
+      "description_ar": "تلقي إشعارات رسمية من الجهات الحكومية",
+      "description_en": "Receive official notifications from government entities",
+      "requirements": [
+        "تطبيق تواصل مفعل",
+        "تفعيل الإشعارات",
+        "رقم جوال صحيح",
+        "بريد إلكتروني نشط"
+      ],
+      "requirements_en": [
+        "Active Tawakkalna",
+        "Enable notifications",
+        "Correct phone number",
+        "Active email"
+      ],
+      "steps": [
+        "فتح تطبيق تواصل",
+        "الذهاب إلى 'الإعدادات'",
+        "اختيار 'الإشعارات'",
+        "تفعيل جميع الإشعارات المطلوبة",
+        "التحقق من رقم الجوال",
+        "تفعيل البريد الإلكتروني",
+        "حفظ الإعدادات"
+      ],
+      "steps_en": [
+        "Open Tawakkalna",
+        "Go to 'Settings'",
+        "Choose 'Notifications'",
+        "Enable required notifications",
+        "Verify phone number",
+        "Activate email",
+        "Save settings"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free"
+      },
+      "processing_time": "فوري",
+      "processing_time_en": "Immediate",
+      "common_mistakes": [
+        "عدم تفعيل الإشعارات",
+        "رقم جوال غير صحيح",
+        "عدم التحقق من البريد"
+      ],
+      "common_mistakes_en": [
+        "Not enabling notifications",
+        "Wrong phone number",
+        "Not verifying email"
+      ],
+      "tips": [
+        "فعّل جميع الإشعارات المهمة",
+        "تحقق من رقم الجوال دورياً",
+        "راجع البريد الإلكتروني الرسمي",
+        "احتفظ بسجل الإشعارات"
+      ],
+      "tips_en": [
+        "Enable all important notifications",
+        "Verify phone regularly",
+        "Check official email",
+        "Keep notification record"
+      ],
+      "eligibility": {
+        "nationality": "أي مستخدم",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "حساب تواصل نشط"
+      }
+    }
+  ]
+}

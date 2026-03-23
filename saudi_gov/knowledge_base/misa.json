@@ -1,0 +1,443 @@
+{
+  "platform": "الهيئة العامة للاستثمار",
+  "platform_ar": "الهيئة العامة للاستثمار",
+  "platform_en": "MISA (General Authority for Investment)",
+  "platform_url": "https://misa.gov.sa",
+  "platform_description_ar": "منصة الهيئة العامة للاستثمار لتسجيل المشاريع والسجل التجاري",
+  "platform_description_en": "MISA platform for project registration and commercial registry",
+  "services": [
+    {
+      "id": "misa_investment_license",
+      "name_ar": "تصريح استثمار أجنبي",
+      "name_en": "Foreign Investment License",
+      "category": "الاستثمار",
+      "category_en": "Investment",
+      "description_ar": "استخراج تصريح الاستثمار الأجنبي من الهيئة العامة للاستثمار",
+      "description_en": "Issue foreign investment license from MISA",
+      "requirements": [
+        "خطة العمل التفصيلية",
+        "بيانات المستثمر والشركة الأم",
+        "دراسة الجدوى الاقتصادية",
+        "رأس المال المطلوب",
+        "بيانات المساهمين"
+      ],
+      "requirements_en": [
+        "Detailed business plan",
+        "Investor and parent company data",
+        "Feasibility study",
+        "Required capital",
+        "Shareholder details"
+      ],
+      "steps": [
+        "الدخول إلى منصة الهيئة",
+        "اختيار 'طلب تصريح استثمار'",
+        "ملء بيانات المشروع",
+        "رفع الوثائق والدراسات",
+        "تحديد القطاع والنشاط",
+        "تحديد موقع المشروع",
+        "إدخال بيانات المالية",
+        "تقديم الطلب للمراجعة",
+        "انتظار قرار الموافقة"
+      ],
+      "steps_en": [
+        "Login to MISA platform",
+        "Select 'Investment License'",
+        "Fill project details",
+        "Upload documents and studies",
+        "Specify sector and activity",
+        "Determine project location",
+        "Enter financial data",
+        "Submit for review",
+        "Await approval decision"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني - الاستثمار الأجنبي مشجع"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free - foreign investment encouraged"
+      },
+      "processing_time": "15-30 يوم",
+      "processing_time_en": "15-30 days",
+      "common_mistakes": [
+        "خطة عمل غير مفصلة",
+        "دراسة جدوى ناقصة",
+        "رأس مال غير كافي",
+        "قطاع محدود الاستثمار"
+      ],
+      "common_mistakes_en": [
+        "Vague business plan",
+        "Incomplete feasibility study",
+        "Insufficient capital",
+        "Restricted investment sectors"
+      ],
+      "tips": [
+        "خطة عمل شاملة ومفصلة",
+        "دراسة جدوى من جهة متخصصة",
+        "رأس مال يتجاوز المتطلبات",
+        "اختر قطاع مشجع للاستثمار",
+        "استشر الهيئة قبل التقديم"
+      ],
+      "tips_en": [
+        "Comprehensive business plan",
+        "Feasibility study by expert",
+        "Capital exceeding requirements",
+        "Choose encouraged sector",
+        "Consult MISA beforehand"
+      ],
+      "eligibility": {
+        "nationality": "أجنبي",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "رأس مال أجنبي وخطة عمل"
+      }
+    },
+    {
+      "id": "misa_commercial_registration",
+      "name_ar": "السجل التجاري",
+      "name_en": "Commercial Registration",
+      "category": "التسجيل",
+      "category_en": "Registration",
+      "description_ar": "تسجيل المشروع في السجل التجاري من الهيئة",
+      "description_en": "Register project in commercial registry from MISA",
+      "requirements": [
+        "الهوية الوطنية أو الإقامة",
+        "حد أدنى من رأس المال",
+        "موقع المشروع",
+        "نوع النشاط المحدد",
+        "بيانات الشركاء"
+      ],
+      "requirements_en": [
+        "National ID or Iqama",
+        "Minimum capital",
+        "Project location",
+        "Specific activity type",
+        "Partner details"
+      ],
+      "steps": [
+        "الدخول إلى منصة الهيئة",
+        "اختيار 'تسجيل سجل تجاري'",
+        "إدخال اسم المشروع",
+        "تحديد نوع النشاط من القائمة",
+        "إدخال رأس المال",
+        "تحديد الموقع",
+        "إضافة بيانات الشركاء",
+        "دفع رسم التسجيل",
+        "استلام السجل التجاري"
+      ],
+      "steps_en": [
+        "Login to MISA",
+        "Select 'Commercial Registry'",
+        "Enter project name",
+        "Choose activity type",
+        "Input capital amount",
+        "Specify location",
+        "Add partner details",
+        "Pay registration fee",
+        "Receive commercial registry"
+      ],
+      "fees": {
+        "amount": 250,
+        "currency": "SAR",
+        "note": "رسم التسجيل الأساسي"
+      },
+      "fees_en": {
+        "amount": 250,
+        "currency": "SAR",
+        "note": "Basic registration fee"
+      },
+      "processing_time": "3-5 أيام",
+      "processing_time_en": "3-5 days",
+      "common_mistakes": [
+        "اسم المشروع يطابق اسم موجود",
+        "نوع النشاط غير دقيق",
+        "رأس مال أقل من الحد الأدنى",
+        "بيانات الشركاء ناقصة"
+      ],
+      "common_mistakes_en": [
+        "Project name already exists",
+        "Inaccurate activity type",
+        "Capital below minimum",
+        "Missing partner data"
+      ],
+      "tips": [
+        "تحقق من توفر اسم المشروع",
+        "اختر النشاط الأساسي بدقة",
+        "رأس مال يتجاوز الحد الأدنى",
+        "بيانات شركاء صحيحة",
+        "احتفظ برقم السجل"
+      ],
+      "tips_en": [
+        "Verify project name availability",
+        "Accurately choose activity",
+        "Adequate capital",
+        "Correct partner data",
+        "Keep registry number"
+      ],
+      "eligibility": {
+        "nationality": "سعودي وأجنبي",
+        "age_min": 18,
+        "age_max": null,
+        "requirements": "رأس مال وموقع محدد"
+      }
+    },
+    {
+      "id": "misa_investor_registration",
+      "name_ar": "تسجيل المستثمر",
+      "name_en": "Investor Registration",
+      "category": "التسجيل",
+      "category_en": "Registration",
+      "description_ar": "تسجيل المستثمر الأجنبي في نظام الهيئة",
+      "description_en": "Register foreign investor in MISA system",
+      "requirements": [
+        "جواز سفر ساري",
+        "بيانات الشركة الأم",
+        "خلفية مالية",
+        "رخصة الاستثمار السابقة",
+        "بيانات التواصل"
+      ],
+      "requirements_en": [
+        "Valid passport",
+        "Parent company data",
+        "Financial background",
+        "Previous investment license",
+        "Contact information"
+      ],
+      "steps": [
+        "الدخول إلى منصة الهيئة",
+        "اختيار 'تسجيل مستثمر جديد'",
+        "إدخال البيانات الشخصية",
+        "إضافة بيانات الشركة",
+        "رفع الوثائق المطلوبة",
+        "التحقق من البيانات",
+        "إنشاء حساب للمستثمر",
+        "تفعيل الحساب",
+        "البدء في الاستثمار"
+      ],
+      "steps_en": [
+        "Login to MISA",
+        "Select 'New Investor'",
+        "Enter personal data",
+        "Add company details",
+        "Upload documents",
+        "Verify information",
+        "Create investor account",
+        "Activate account",
+        "Begin investing"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني - تشجيع الاستثمار"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free - encouraging investment"
+      },
+      "processing_time": "5-10 أيام",
+      "processing_time_en": "5-10 days",
+      "common_mistakes": [
+        "بيانات شخصية غير صحيحة",
+        "وثائق غير معتمدة",
+        "بيانات الشركة الأم ناقصة",
+        "عدم التحقق من الحساب"
+      ],
+      "common_mistakes_en": [
+        "Incorrect personal data",
+        "Unapproved documents",
+        "Incomplete parent company data",
+        "Account not verified"
+      ],
+      "tips": [
+        "بيانات دقيقة وحالية",
+        "وثائق معتمدة من جهات رسمية",
+        "بيانات شركة الأم واضحة",
+        "تفعيل الحساب فوراً",
+        "استشارة الهيئة عند الحاجة"
+      ],
+      "tips_en": [
+        "Accurate current data",
+        "Official documents",
+        "Clear parent company info",
+        "Activate immediately",
+        "Consult MISA if needed"
+      ],
+      "eligibility": {
+        "nationality": "أجنبي",
+        "age_min": 18,
+        "age_max": null,
+        "requirements": "شركة معتمدة بالخارج"
+      }
+    },
+    {
+      "id": "misa_project_modification",
+      "name_ar": "تعديل بيانات المشروع",
+      "name_en": "Project Data Modification",
+      "category": "التعديلات",
+      "category_en": "Modifications",
+      "description_ar": "تعديل بيانات المشروع المسجل",
+      "description_en": "Modify registered project details",
+      "requirements": [
+        "رقم السجل التجاري",
+        "تفاصيل التعديل",
+        "مبررات التعديل",
+        "وثائق داعمة"
+      ],
+      "requirements_en": [
+        "Commercial registry number",
+        "Modification details",
+        "Modification justification",
+        "Supporting documents"
+      ],
+      "steps": [
+        "الدخول إلى حساب المستثمر",
+        "اختيار 'تعديل المشروع'",
+        "تحديد نوع التعديل",
+        "إدخال البيانات الجديدة",
+        "رفع الوثائق الداعمة",
+        "كتابة مبرر التعديل",
+        "إرسال طلب التعديل",
+        "انتظار الموافقة"
+      ],
+      "steps_en": [
+        "Login to investor account",
+        "Select 'Modify Project'",
+        "Choose modification type",
+        "Enter new data",
+        "Upload supporting docs",
+        "Write modification reason",
+        "Submit modification request",
+        "Await approval"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free"
+      },
+      "processing_time": "3-7 أيام",
+      "processing_time_en": "3-7 days",
+      "common_mistakes": [
+        "بيانات المشروع غير واضحة",
+        "مبرر التعديل غير كافي",
+        "وثائق ناقصة",
+        "تأخر في الموافقة"
+      ],
+      "common_mistakes_en": [
+        "Unclear project data",
+        "Insufficient modification reason",
+        "Missing documents",
+        "Approval delays"
+      ],
+      "tips": [
+        "كن واضحاً في التعديل المطلوب",
+        "مبرر قوي للتعديل",
+        "وثائق كاملة وواضحة",
+        "تابع الطلب دورياً",
+        "احتفظ برقم الطلب"
+      ],
+      "tips_en": [
+        "Be clear about modification",
+        "Strong modification reason",
+        "Complete clear documents",
+        "Track request regularly",
+        "Keep request number"
+      ],
+      "eligibility": {
+        "nationality": "صاحب المشروع",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "مشروع مسجل نشط"
+      }
+    },
+    {
+      "id": "misa_saudization_incentives",
+      "name_ar": "حوافز السعودة",
+      "name_en": "Saudization Incentives",
+      "category": "الحوافز",
+      "category_en": "Incentives",
+      "description_ar": "الاستفادة من حوافز السعودة لتوظيف السعوديين",
+      "description_en": "Access Saudization incentives for employing Saudis",
+      "requirements": [
+        "مشروع مسجل",
+        "عدد محدد من الموظفين السعوديين",
+        "متطلبات الحد الأدنى للأجور",
+        "توثيق العقود"
+      ],
+      "requirements_en": [
+        "Registered project",
+        "Specific number of Saudi employees",
+        "Minimum wage requirements",
+        "Contract documentation"
+      ],
+      "steps": [
+        "التسجيل في نظام السعودة",
+        "إدخال عدد الموظفين السعوديين",
+        "توثيق العقود على قوى العمل",
+        "الامتثال لنسب السعودة",
+        "إرسال التقارير الدورية",
+        "الحصول على الحوافز"
+      ],
+      "steps_en": [
+        "Register in Saudization system",
+        "Input Saudi employee numbers",
+        "Document contracts on Qiwa",
+        "Comply with Saudization ratios",
+        "Submit periodic reports",
+        "Receive incentives"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "حوافز وليس رسوم"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Incentives, not fees"
+      },
+      "processing_time": "15-30 يوم",
+      "processing_time_en": "15-30 days",
+      "common_mistakes": [
+        "عدم الامتثال لنسب السعودة",
+        "عدم توثيق العقود",
+        "أجور أقل من الحد الأدنى",
+        "عدم تقديم التقارير"
+      ],
+      "common_mistakes_en": [
+        "Non-compliance with ratios",
+        "Undocumented contracts",
+        "Below minimum wages",
+        "Unreported statistics"
+      ],
+      "tips": [
+        "احرص على نسب السعودة العالية",
+        "عقود موثقة على قوى العمل",
+        "أجور تتجاوز الحد الأدنى",
+        "تقارير شهرية منتظمة",
+        "استشارة الهيئة للحوافز"
+      ],
+      "tips_en": [
+        "Maintain high Saudization ratios",
+        "Documented Qiwa contracts",
+        "Wages above minimum",
+        "Regular monthly reports",
+        "Consult MISA for incentives"
+      ],
+      "eligibility": {
+        "nationality": "صاحب مشروع",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "مشروع نشط وموظفين سعوديين"
+      }
+    }
+  ]
+}

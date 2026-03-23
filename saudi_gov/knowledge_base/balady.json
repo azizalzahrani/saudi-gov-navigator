@@ -1,0 +1,451 @@
+{
+  "platform": "بلدي",
+  "platform_ar": "بلدي",
+  "platform_en": "Balady",
+  "platform_url": "https://balady.gov.sa",
+  "platform_description_ar": "منصة بلدي البيئية للخدمات البلدية والترخيص التجاري",
+  "platform_description_en": "Balady platform for municipal services and commercial licensing",
+  "services": [
+    {
+      "id": "balady_commercial_license",
+      "name_ar": "رخصة نشاط تجاري",
+      "name_en": "Commercial Activity License",
+      "category": "التراخيص التجارية",
+      "category_en": "Commercial Licenses",
+      "description_ar": "استخراج رخصة النشاط التجاري الإلكترونية من بلدي",
+      "description_en": "Issue commercial activity license electronically through Balady",
+      "requirements": [
+        "السجل التجاري",
+        "بطاقة الهوية",
+        "رخصة المهنة",
+        "موقع النشاط",
+        "تصريح من الملكية/الإيجار"
+      ],
+      "requirements_en": [
+        "Commercial registration",
+        "ID card",
+        "Professional license",
+        "Business location",
+        "Ownership/lease approval"
+      ],
+      "steps": [
+        "الدخول إلى منصة بلدي",
+        "تسجيل حساب تاجري",
+        "اختيار 'تسجيل نشاط تجاري'",
+        "إدخال بيانات النشاط",
+        "رفع الوثائق المطلوبة",
+        "اختيار نوع النشاط من القائمة",
+        "السداد الإلكتروني للرسوم",
+        "استلام الرخصة"
+      ],
+      "steps_en": [
+        "Login to Balady",
+        "Register merchant account",
+        "Select 'Register Commercial Activity'",
+        "Enter activity details",
+        "Upload required documents",
+        "Choose activity type",
+        "Pay electronic fees",
+        "Receive license"
+      ],
+      "fees": {
+        "amount": "متغيرة حسب النشاط",
+        "currency": "SAR",
+        "note": "من 300 ريال وتختلف حسب نوع النشاط"
+      },
+      "fees_en": {
+        "amount": "Varies by activity",
+        "currency": "SAR",
+        "note": "From 300 SAR depending on activity type"
+      },
+      "processing_time": "3-7 أيام",
+      "processing_time_en": "3-7 days",
+      "common_mistakes": [
+        "عدم اختيار نوع النشاط الصحيح",
+        "موقع النشاط غير محدد بدقة",
+        "الوثائق ناقصة أو غير واضحة",
+        "عدم وضوح صلاحية الإيجار"
+      ],
+      "common_mistakes_en": [
+        "Wrong activity type selection",
+        "Vague location",
+        "Missing or unclear documents",
+        "Unclear lease validity"
+      ],
+      "tips": [
+        "تأكد من اختيار النشاط الصحيح من القائمة",
+        "ادرج موقع دقيق على الخريطة",
+        "ملفات واضحة وعالية الجودة",
+        "تأكد من صلاحية إثبات الملكية/الإيجار",
+        "احتفظ برقم المعاملة"
+      ],
+      "tips_en": [
+        "Select correct activity type",
+        "Provide exact location on map",
+        "Clear, high-quality documents",
+        "Ensure valid lease/ownership",
+        "Keep transaction number"
+      ],
+      "eligibility": {
+        "nationality": "سعودي أو أجنبي",
+        "age_min": 18,
+        "age_max": null,
+        "requirements": "سجل تجاري وموقع صحيح"
+      }
+    },
+    {
+      "id": "balady_food_license",
+      "name_ar": "رخصة منشأة غذائية",
+      "name_en": "Food Establishment License",
+      "category": "التراخيص الغذائية",
+      "category_en": "Food Licenses",
+      "description_ar": "استخراج رخصة الغذاء والمطاعم والكافيهات",
+      "description_en": "License for food establishments, restaurants, and cafes",
+      "requirements": [
+        "رخصة نشاط تجاري سارية",
+        "شهادة من بلدي عن الموقع",
+        "خطة صحية للمنشأة",
+        "بيانات المالك والمدير",
+        "موافقة الهيئة الصحية"
+      ],
+      "requirements_en": [
+        "Valid commercial license",
+        "Balady site certificate",
+        "Health plan for facility",
+        "Owner and manager data",
+        "Health authority approval"
+      ],
+      "steps": [
+        "الحصول على رخصة نشاط تجاري أولاً",
+        "الدخول إلى بلدي",
+        "اختيار 'رخصة منشأة غذائية'",
+        "إدخال بيانات المنشأة",
+        "رفع خطة صحية معتمدة",
+        "توفير بيانات العاملين الصحية",
+        "فحص الموقع من بلدي",
+        "موافقة الهيئة الصحية",
+        "استلام الرخصة"
+      ],
+      "steps_en": [
+        "First get commercial license",
+        "Login to Balady",
+        "Select 'Food License'",
+        "Enter facility details",
+        "Upload approved health plan",
+        "Provide staff health data",
+        "Site inspection by Balady",
+        "Health authority approval",
+        "Receive license"
+      ],
+      "fees": {
+        "amount": "متغيرة",
+        "currency": "SAR",
+        "note": "من 500 ريال حسب المساحة والنوع"
+      },
+      "fees_en": {
+        "amount": "Varies",
+        "currency": "SAR",
+        "note": "From 500 SAR by size and type"
+      },
+      "processing_time": "10-14 يوم",
+      "processing_time_en": "10-14 days",
+      "common_mistakes": [
+        "عدم استكمال الرخصة التجارية أولاً",
+        "خطة صحية غير معتمدة",
+        "عدم توفير بيانات العاملين",
+        "الموقع لا يتوافق مع متطلبات الصحة"
+      ],
+      "common_mistakes_en": [
+        "No commercial license first",
+        "Unapproved health plan",
+        "Missing staff data",
+        "Location doesn't meet health standards"
+      ],
+      "tips": [
+        "استكمل الرخصة التجارية أولاً",
+        "اختبر الموقع قبل الطلب",
+        "خطة صحية من جهة معتمدة",
+        "توفير شهادات صحية للعاملين",
+        "استعد لفحص الموقع"
+      ],
+      "tips_en": [
+        "Get commercial license first",
+        "Test location beforehand",
+        "Approved health plan",
+        "Staff health certificates",
+        "Prepare for site inspection"
+      ],
+      "eligibility": {
+        "nationality": "سعودي أو أجنبي",
+        "age_min": 18,
+        "age_max": null,
+        "requirements": "رخصة تجارية وموقع مناسب"
+      }
+    },
+    {
+      "id": "balady_building_permit",
+      "name_ar": "رخصة البناء والهدم",
+      "name_en": "Building and Demolition Permit",
+      "category": "التراخيص العقارية",
+      "category_en": "Real Estate Licenses",
+      "description_ar": "استخراج رخصة البناء والهدم من البلدية",
+      "description_en": "Building and demolition permits from municipality",
+      "requirements": [
+        "ملكية العقار موثقة",
+        "رسم معماري معتمد",
+        "دراسة الأثر البيئي",
+        "موافقة الأنظمة البلدية",
+        "بيانات المقاول"
+      ],
+      "requirements_en": [
+        "Property ownership documented",
+        "Approved architectural drawing",
+        "Environmental impact study",
+        "Municipal code approval",
+        "Contractor details"
+      ],
+      "steps": [
+        "تحضير الرسومات والدراسات",
+        "الدخول إلى منصة بلدي",
+        "اختيار 'رخصة بناء'",
+        "إدخال بيانات العقار",
+        "رفع الرسومات والدراسات",
+        "دفع رسم الفحص الأولي",
+        "انتظار الفحص الفني",
+        "إجراء التعديلات إن لزمت",
+        "استلام الرخصة"
+      ],
+      "steps_en": [
+        "Prepare drawings and studies",
+        "Login to Balady",
+        "Select 'Building Permit'",
+        "Enter property data",
+        "Upload drawings and studies",
+        "Pay initial review fee",
+        "Wait for technical review",
+        "Make modifications if needed",
+        "Receive permit"
+      ],
+      "fees": {
+        "amount": "متغيرة حسب المساحة",
+        "currency": "SAR",
+        "note": "تختلف حسب مساحة البناء والنوع"
+      },
+      "fees_en": {
+        "amount": "Varies by area",
+        "currency": "SAR",
+        "note": "Depends on building size and type"
+      },
+      "processing_time": "15-30 يوم",
+      "processing_time_en": "15-30 days",
+      "common_mistakes": [
+        "رسومات معمارية غير معتمدة",
+        "عدم توافق مع الأنظمة البلدية",
+        "دراسة أثر بيئي ناقصة",
+        "بيانات العقار غير دقيقة"
+      ],
+      "common_mistakes_en": [
+        "Unapproved architectural drawings",
+        "Non-compliant with codes",
+        "Incomplete environmental study",
+        "Inaccurate property data"
+      ],
+      "tips": [
+        "اعمل مع معماري معتمد",
+        "تأكد من توافق الرسومات مع الأنظمة",
+        "شامل دراسة الأثر البيئي",
+        "احتفظ بنسخة من كل الوثائق",
+        "تابع مراحل الفحص"
+      ],
+      "tips_en": [
+        "Work with licensed architect",
+        "Ensure code compliance",
+        "Include environmental study",
+        "Keep all document copies",
+        "Track review stages"
+      ],
+      "eligibility": {
+        "nationality": "مالك عقار",
+        "age_min": 18,
+        "age_max": null,
+        "requirements": "ملكية موثقة ورسومات معتمدة"
+      }
+    },
+    {
+      "id": "balady_complaint",
+      "name_ar": "تقديم شكوى بلدية",
+      "name_en": "Municipal Complaint",
+      "category": "الشكاوى",
+      "category_en": "Complaints",
+      "description_ar": "تقديم شكاوى حول الخدمات البلدية والنظافة",
+      "description_en": "File complaints about municipal services and cleanliness",
+      "requirements": [
+        "تفاصيل الشكوى",
+        "موقع الشكوى",
+        "صور توضيحية",
+        "بيانات المشتكي"
+      ],
+      "requirements_en": [
+        "Complaint details",
+        "Location of issue",
+        "Supporting photos",
+        "Complainant data"
+      ],
+      "steps": [
+        "الدخول إلى منصة بلدي",
+        "اختيار 'تقديم شكوى'",
+        "اختيار نوع الشكوى",
+        "وصف المشكلة بالتفصيل",
+        "تحديد الموقع على الخريطة",
+        "رفع صور توضيحية",
+        "تقديم بيانات المشتكي",
+        "إرسال الشكوى",
+        "متابعة الحالة"
+      ],
+      "steps_en": [
+        "Login to Balady",
+        "Select 'File Complaint'",
+        "Choose complaint type",
+        "Describe issue",
+        "Mark location on map",
+        "Upload photos",
+        "Enter complainant data",
+        "Submit complaint",
+        "Track status"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "خدمة مجانية"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free service"
+      },
+      "processing_time": "3-10 أيام",
+      "processing_time_en": "3-10 days",
+      "common_mistakes": [
+        "موقع غير دقيق",
+        "صور غير واضحة",
+        "وصف الشكوى غير تفصيلي",
+        "بيانات شخصية ناقصة"
+      ],
+      "common_mistakes_en": [
+        "Vague location",
+        "Unclear photos",
+        "Incomplete description",
+        "Missing personal data"
+      ],
+      "tips": [
+        "كن دقيقاً في الموقع",
+        "صور واضحة للمشكلة",
+        "وصف تفصيلي للمشكلة",
+        "احتفظ برقم الشكوى",
+        "تابع التقدم"
+      ],
+      "tips_en": [
+        "Be precise with location",
+        "Clear problem photos",
+        "Detailed description",
+        "Keep complaint number",
+        "Track progress"
+      ],
+      "eligibility": {
+        "nationality": "أي شخص",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "موقع في البلد السعودي"
+      }
+    },
+    {
+      "id": "balady_franchise_approval",
+      "name_ar": "موافقة الامتياز التجاري",
+      "name_en": "Franchise Approval",
+      "category": "التراخيص",
+      "category_en": "Licenses",
+      "description_ar": "الحصول على موافقة الامتياز التجاري من البلدية",
+      "description_en": "Get commercial franchise approval from municipality",
+      "requirements": [
+        "عقد امتياز موقع",
+        "رخصة النشاط الأساسي",
+        "موافقة من المانح",
+        "دليل التشغيل للفرع",
+        "بيانات المدير والعاملين"
+      ],
+      "requirements_en": [
+        "Signed franchise agreement",
+        "Base activity license",
+        "Franchisor approval",
+        "Branch operations manual",
+        "Manager and staff data"
+      ],
+      "steps": [
+        "استكمال العقد مع المانح",
+        "الحصول على رخصة النشاط",
+        "الدخول إلى بلدي",
+        "اختيار 'موافقة امتياز'",
+        "رفع العقد والموافقات",
+        "إدخال بيانات الفرع",
+        "دفع الرسوم",
+        "فحص الموقع",
+        "استلام الموافقة"
+      ],
+      "steps_en": [
+        "Complete franchise agreement",
+        "Get activity license",
+        "Login to Balady",
+        "Select 'Franchise Approval'",
+        "Upload agreement and approvals",
+        "Enter branch details",
+        "Pay fees",
+        "Location inspection",
+        "Receive approval"
+      ],
+      "fees": {
+        "amount": "متغيرة",
+        "currency": "SAR",
+        "note": "حسب نوع الامتياز والموقع"
+      },
+      "fees_en": {
+        "amount": "Varies",
+        "currency": "SAR",
+        "note": "By franchise type and location"
+      },
+      "processing_time": "7-14 يوم",
+      "processing_time_en": "7-14 days",
+      "common_mistakes": [
+        "عقد امتياز ناقص",
+        "عدم موافقة المانح",
+        "بيانات الموقع غير دقيقة",
+        "عدم توفير دليل التشغيل"
+      ],
+      "common_mistakes_en": [
+        "Incomplete franchise agreement",
+        "No franchisor approval",
+        "Inaccurate location data",
+        "Missing operations manual"
+      ],
+      "tips": [
+        "اكمل العقد مع المانح أولاً",
+        "احصل على موافقة كتابية",
+        "دليل تشغيل واضح ومفصل",
+        "موقع يتوافق مع الامتياز",
+        "احتفظ بجميع الوثائق"
+      ],
+      "tips_en": [
+        "Complete agreement with franchisor first",
+        "Get written approval",
+        "Clear operations manual",
+        "Compliant location",
+        "Keep all documents"
+      ],
+      "eligibility": {
+        "nationality": "صاحب امتياز",
+        "age_min": 18,
+        "age_max": null,
+        "requirements": "عقد امتياز صحيح"
+      }
+    }
+  ]
+}

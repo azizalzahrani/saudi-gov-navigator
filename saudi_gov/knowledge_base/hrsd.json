@@ -1,0 +1,433 @@
+{
+  "platform": "التأمينات",
+  "platform_ar": "التأمينات",
+  "platform_en": "HRSD / Social Insurance",
+  "platform_url": "https://hrsd.org.sa",
+  "platform_description_ar": "منصة التأمينات الاجتماعية لتسجيل العمال والحصول على المنافع",
+  "platform_description_en": "Social insurance platform for worker registration and benefits",
+  "services": [
+    {
+      "id": "hrsd_worker_registration",
+      "name_ar": "تسجيل العامل في التأمينات",
+      "name_en": "Worker Registration in Social Insurance",
+      "category": "التسجيل",
+      "category_en": "Registration",
+      "description_ar": "تسجيل العامل في نظام التأمينات الاجتماعية",
+      "description_en": "Register worker in social insurance system",
+      "requirements": [
+        "بيانات العامل كاملة",
+        "رقم الهوية أو الإقامة",
+        "عقد عمل موقع",
+        "بيانات صاحب العمل",
+        "رقم الحساب البنكي للعامل"
+      ],
+      "requirements_en": [
+        "Complete worker data",
+        "ID or Iqama number",
+        "Signed employment contract",
+        "Employer details",
+        "Worker bank account"
+      ],
+      "steps": [
+        "الدخول إلى منصة التأمينات",
+        "اختيار 'تسجيل عامل جديد'",
+        "إدخال بيانات العامل",
+        "إدخال بيانات العقد",
+        "تحديد الراتب والدرجة",
+        "رفع عقد العمل",
+        "تحديد الحساب البنكي",
+        "التحقق من البيانات",
+        "تفعيل التسجيل"
+      ],
+      "steps_en": [
+        "Login to insurance platform",
+        "Select 'Register Worker'",
+        "Enter worker data",
+        "Input contract details",
+        "Specify salary and grade",
+        "Upload employment contract",
+        "Specify bank account",
+        "Verify information",
+        "Activate registration"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني - إجباري للعاملين"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free - mandatory for workers"
+      },
+      "processing_time": "1-3 أيام",
+      "processing_time_en": "1-3 days",
+      "common_mistakes": [
+        "بيانات العامل غير صحيحة",
+        "راتب أقل من الحد الأدنى",
+        "عقد عمل غير موثق",
+        "حساب بنكي خاطئ"
+      ],
+      "common_mistakes_en": [
+        "Incorrect worker data",
+        "Salary below minimum",
+        "Undocumented contract",
+        "Wrong bank account"
+      ],
+      "tips": [
+        "بيانات دقيقة من البطاقة",
+        "راتب يتجاوز الحد الأدنى",
+        "عقد عمل موثق وموقع",
+        "حساب بنكي نشط",
+        "تحديث البيانات دورياً"
+      ],
+      "tips_en": [
+        "Accurate ID data",
+        "Salary above minimum",
+        "Documented signed contract",
+        "Active bank account",
+        "Update data regularly"
+      ],
+      "eligibility": {
+        "nationality": "وافد وسعودي",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "عقد عمل صحيح"
+      }
+    },
+    {
+      "id": "hrsd_benefits_inquiry",
+      "name_ar": "الاستعلام عن المستحقات والمزايا",
+      "name_en": "Benefits Inquiry",
+      "category": "الاستعلامات",
+      "category_en": "Inquiries",
+      "description_ar": "الاستعلام عن المستحقات والتأمين والمزايا",
+      "description_en": "Check benefits, insurance, and entitlements",
+      "requirements": [
+        "رقم الهوية",
+        "رقم التسجيل في التأمينات",
+        "بيانات العامل"
+      ],
+      "requirements_en": [
+        "ID number",
+        "Insurance registration number",
+        "Worker data"
+      ],
+      "steps": [
+        "الدخول إلى منصة التأمينات",
+        "اختيار 'الاستعلامات'",
+        "إدخال رقم الهوية",
+        "عرض بيانات التسجيل",
+        "الاستعلام عن المستحقات",
+        "الاستعلام عن التأمين",
+        "معرفة رصيد الحساب",
+        "تحميل التقارير"
+      ],
+      "steps_en": [
+        "Login to insurance platform",
+        "Select 'Inquiries'",
+        "Enter ID number",
+        "View registration data",
+        "Check entitlements",
+        "View insurance info",
+        "Check account balance",
+        "Download reports"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "خدمة مجانية"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free service"
+      },
+      "processing_time": "فوري",
+      "processing_time_en": "Immediate",
+      "common_mistakes": [
+        "رقم هوية خاطئ",
+        "عدم تفعيل الحساب",
+        "نسيان رقم التسجيل"
+      ],
+      "common_mistakes_en": [
+        "Wrong ID number",
+        "Account not activated",
+        "Forgotten registration number"
+      ],
+      "tips": [
+        "تحقق من رقم الهوية",
+        "راجع الاستعلامات دورياً",
+        "احتفظ برقم التسجيل",
+        "احفظ التقارير المهمة"
+      ],
+      "tips_en": [
+        "Verify ID number",
+        "Check inquiries regularly",
+        "Save registration number",
+        "Archive important reports"
+      ],
+      "eligibility": {
+        "nationality": "موظف مسجل",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "تسجيل نشط"
+      }
+    },
+    {
+      "id": "hrsd_disability_benefit",
+      "name_ar": "معاش الإعاقة",
+      "name_en": "Disability Benefit",
+      "category": "المزايا",
+      "category_en": "Benefits",
+      "description_ar": "تقديم طلب معاش الإعاقة من التأمينات",
+      "description_en": "Apply for disability benefit from social insurance",
+      "requirements": [
+        "تسجيل في التأمينات سارية",
+        "تقرير طبي موثق",
+        "شهادة من اللجنة الطبية",
+        "بيانات الحساب البنكي"
+      ],
+      "requirements_en": [
+        "Active insurance registration",
+        "Verified medical report",
+        "Medical committee certificate",
+        "Bank account details"
+      ],
+      "steps": [
+        "الحصول على تقرير طبي معتمد",
+        "إحالة إلى اللجنة الطبية",
+        "فحص طبي شامل",
+        "الدخول إلى منصة التأمينات",
+        "تقديم طلب معاش الإعاقة",
+        "رفع التقارير الطبية",
+        "انتظار قرار اللجنة",
+        "استقبال المعاش"
+      ],
+      "steps_en": [
+        "Get approved medical report",
+        "Refer to medical committee",
+        "Comprehensive medical exam",
+        "Login to insurance platform",
+        "Apply for disability benefit",
+        "Upload medical reports",
+        "Await committee decision",
+        "Receive pension"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free"
+      },
+      "processing_time": "30-60 يوم",
+      "processing_time_en": "30-60 days",
+      "common_mistakes": [
+        "تقرير طبي غير معتمد",
+        "عدم إحالة اللجنة الطبية",
+        "بيانات حساب خاطئة",
+        "تأخر في التقديم"
+      ],
+      "common_mistakes_en": [
+        "Unapproved medical report",
+        "Not referring to committee",
+        "Wrong bank account",
+        "Late application"
+      ],
+      "tips": [
+        "تقرير طبي معتمد",
+        "لجنة طبية متخصصة",
+        "حساب بنكي صحيح",
+        "متابعة الطلب دورياً",
+        "احتفظ برقم الطلب"
+      ],
+      "tips_en": [
+        "Approved medical report",
+        "Specialist medical committee",
+        "Correct bank account",
+        "Track application regularly",
+        "Keep application number"
+      ],
+      "eligibility": {
+        "nationality": "موظف مسجل",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "إعاقة موثقة طبياً"
+      }
+    },
+    {
+      "id": "hrsd_old_age_pension",
+      "name_ar": "معاش الشيخوخة",
+      "name_en": "Old Age Pension",
+      "category": "المزايا",
+      "category_en": "Benefits",
+      "description_ar": "التقديم على معاش الشيخوخة عند بلوغ السن المحددة",
+      "description_en": "Apply for old age pension when reaching retirement age",
+      "requirements": [
+        "تسجيل في التأمينات مدة محددة",
+        "بلوغ سن التقاعد المحدد",
+        "فترة اشتراك كافية",
+        "بيانات بنكية صحيحة"
+      ],
+      "requirements_en": [
+        "Registered for specified period",
+        "Reached retirement age",
+        "Sufficient contribution period",
+        "Correct bank details"
+      ],
+      "steps": [
+        "التأكد من توفر الشروط",
+        "حساب فترة الاشتراك",
+        "الدخول إلى التأمينات",
+        "تقديم طلب المعاش",
+        "إرفاق الوثائق المطلوبة",
+        "التحقق من البيانات",
+        "الموافقة على المعاش",
+        "استقبال الراتب الشهري"
+      ],
+      "steps_en": [
+        "Verify eligibility",
+        "Calculate contribution period",
+        "Login to insurance",
+        "Apply for pension",
+        "Attach required documents",
+        "Verify data",
+        "Approve pension",
+        "Receive monthly payment"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free"
+      },
+      "processing_time": "15-30 يوم",
+      "processing_time_en": "15-30 days",
+      "common_mistakes": [
+        "عدم تحقق الشروط الكاملة",
+        "فترة اشتراك غير كافية",
+        "بيانات حساب خاطئة",
+        "تأخر في التقديم"
+      ],
+      "common_mistakes_en": [
+        "Incomplete requirements",
+        "Insufficient contribution",
+        "Wrong bank account",
+        "Late application"
+      ],
+      "tips": [
+        "تحقق من سن التقاعد المحدد",
+        "احسب فترة الاشتراك",
+        "حساب بنكي صحيح",
+        "قدم قبل بلوغ العمر بشهر",
+        "احتفظ بالتقارير"
+      ],
+      "tips_en": [
+        "Verify retirement age",
+        "Calculate contribution period",
+        "Correct bank account",
+        "Apply a month before",
+        "Keep reports"
+      ],
+      "eligibility": {
+        "nationality": "موظف مسجل",
+        "age_min": 60,
+        "age_max": null,
+        "requirements": "فترة اشتراك محددة"
+      }
+    },
+    {
+      "id": "hrsd_labor_dispute",
+      "name_ar": "منازعات العمل",
+      "name_en": "Labor Disputes",
+      "category": "المنازعات",
+      "category_en": "Disputes",
+      "description_ar": "تقديم شكوى في منازعات العمل",
+      "description_en": "File labor dispute complaint",
+      "requirements": [
+        "تسجيل في التأمينات",
+        "تفاصيل المنازعة",
+        "أدلة وثائق",
+        "بيانات صاحب العمل"
+      ],
+      "requirements_en": [
+        "Insurance registration",
+        "Dispute details",
+        "Supporting evidence",
+        "Employer data"
+      ],
+      "steps": [
+        "جمع الأدلة والوثائق",
+        "الدخول إلى التأمينات",
+        "تقديم شكوى عمل",
+        "وصف المنازعة بالتفصيل",
+        "رفع الأدلة",
+        "إرسال الشكوى",
+        "حضور الجلسة",
+        "الحصول على الحكم"
+      ],
+      "steps_en": [
+        "Gather evidence",
+        "Login to insurance",
+        "File labor complaint",
+        "Describe dispute",
+        "Upload evidence",
+        "Submit complaint",
+        "Attend hearing",
+        "Get judgment"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free"
+      },
+      "processing_time": "30-90 يوم",
+      "processing_time_en": "30-90 days",
+      "common_mistakes": [
+        "أدلة غير كافية",
+        "وصف غير واضح",
+        "عدم الحضور للجلسة",
+        "تأخر التقديم"
+      ],
+      "common_mistakes_en": [
+        "Insufficient evidence",
+        "Unclear description",
+        "Not attending hearing",
+        "Late filing"
+      ],
+      "tips": [
+        "اجمع كل الأدلة المتاحة",
+        "وصف دقيق واضح",
+        "احضر جميع الجلسات",
+        "استشر محامياً إن لزم",
+        "احتفظ بنسخة من الشكوى"
+      ],
+      "tips_en": [
+        "Gather all evidence",
+        "Clear description",
+        "Attend all hearings",
+        "Consult lawyer if needed",
+        "Keep complaint copy"
+      ],
+      "eligibility": {
+        "nationality": "موظف مسجل",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "منازعة عمل موثقة"
+      }
+    }
+  ]
+}

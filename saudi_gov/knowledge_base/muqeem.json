@@ -1,0 +1,508 @@
+{
+  "platform": "معايش",
+  "platform_ar": "معايش",
+  "platform_en": "Muqeem",
+  "platform_url": "https://muqeem.sa",
+  "platform_description_ar": "منصة معايش الإلكترونية لإدارة الإقامات والتأشيرات والعاملين بالقطاع الخاص",
+  "platform_description_en": "Muqeem e-platform for managing iqamas, visas, and private sector workers",
+  "services": [
+    {
+      "id": "muqeem_iqama_renewal",
+      "name_ar": "تجديد الإقامة (الرقم المسلسل)",
+      "name_en": "Iqama Renewal (Residence Permit)",
+      "category": "الإقامات",
+      "category_en": "Residency",
+      "description_ar": "خدمة تجديد بطاقة الإقامة للعاملين بالقطاع الخاص والوافدين",
+      "description_en": "Service to renew residence permit (iqama) for private sector workers and expatriates",
+      "requirements": [
+        "جواز سفر ساري الصلاحية",
+        "شهادة طبية من المركز المعتمد",
+        "عدم وجود قيود على الإقامة",
+        "الضمان (كفيل) موافق على التجديد",
+        "صورة شخصية حديثة"
+      ],
+      "requirements_en": [
+        "Valid passport",
+        "Medical certificate from approved center",
+        "No restrictions on residency",
+        "Sponsor (kafeel) approval for renewal",
+        "Recent passport photo"
+      ],
+      "steps": [
+        "الدخول على منصة معايش",
+        "اختيار 'تجديد الإقامة'",
+        "إدخال بيانات الجواز",
+        "الحجز للفحص الطبي",
+        "إجراء الفحص الطبي في المركز المعتمد",
+        "السداد الإلكتروني للرسوم",
+        "تحديد موعد للمراجعة",
+        "استلام الإقامة الجديدة"
+      ],
+      "steps_en": [
+        "Login to Muqeem platform",
+        "Select 'Renew Iqama'",
+        "Enter passport details",
+        "Book medical examination",
+        "Undergo medical exam at approved center",
+        "Pay renewal fees electronically",
+        "Schedule appointment for collection",
+        "Receive new iqama"
+      ],
+      "fees": {
+        "amount": 100,
+        "currency": "SAR",
+        "note": "رسم التجديد لسنة واحدة للعامل"
+      },
+      "fees_en": {
+        "amount": 100,
+        "currency": "SAR",
+        "note": "Annual renewal fee for worker"
+      },
+      "processing_time": "3-5 أيام عمل",
+      "processing_time_en": "3-5 business days",
+      "common_mistakes": [
+        "عدم التقديم قبل انتهاء صلاحية الإقامة",
+        "عدم إجراء الفحص الطبي في الوقت المناسب",
+        "الجواز بدون صلاحية كافية",
+        "عدم موافقة الكفيل على التجديد"
+      ],
+      "common_mistakes_en": [
+        "Not applying before iqama expires",
+        "Not doing medical exam on time",
+        "Passport without sufficient validity",
+        "Sponsor not approving renewal"
+      ],
+      "tips": [
+        "ابدأ بالتجديد قبل انتهاء الصلاحية بشهر",
+        "الفحص الطبي إجباري ولا يمكن تجنبه",
+        "احتفظ بالإيصالات والوثائق",
+        "تأكد من قبول الكفيل قبل البدء"
+      ],
+      "tips_en": [
+        "Start renewal a month before expiry",
+        "Medical exam is mandatory",
+        "Keep receipts and documents",
+        "Ensure sponsor approval before starting"
+      ],
+      "eligibility": {
+        "nationality": "وافد/مقيم",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "إقامة سارية أو منتهية"
+      }
+    },
+    {
+      "id": "muqeem_iqama_transfer",
+      "name_ar": "نقل الكفالة (نقل الإقامة)",
+      "name_en": "Iqama Transfer (Change of Sponsor)",
+      "category": "الإقامات",
+      "category_en": "Residency",
+      "description_ar": "خدمة نقل الإقامة من كفيل إلى آخر عند تغيير الوظيفة أو صاحب العمل",
+      "description_en": "Service to transfer iqama from one sponsor to another when changing jobs",
+      "requirements": [
+        "جواز سفر ساري",
+        "خطاب موافقة الكفيل الأول على النقل",
+        "عقد عمل مع الكفيل الجديد",
+        "موافقة الكفيل الجديد",
+        "شهادة صحية جديدة (في بعض الحالات)"
+      ],
+      "requirements_en": [
+        "Valid passport",
+        "Approval letter from current sponsor",
+        "Employment contract with new sponsor",
+        "New sponsor approval",
+        "New health certificate (sometimes)"
+      ],
+      "steps": [
+        "الحصول على موافقة الكفيل الحالي",
+        "توقيع عقد عمل مع الكفيل الجديد",
+        "الدخول على منصة معايش",
+        "اختيار 'طلب نقل كفالة'",
+        "رفع الوثائق المطلوبة",
+        "إرسال الطلب للجهة المختصة",
+        "انتظار موافقة الكفيل الجديد",
+        "استكمال الإجراءات الإدارية"
+      ],
+      "steps_en": [
+        "Get approval from current sponsor",
+        "Sign contract with new sponsor",
+        "Login to Muqeem",
+        "Select 'Sponsorship Transfer'",
+        "Upload required documents",
+        "Send request to authorities",
+        "Wait for new sponsor approval",
+        "Complete administrative procedures"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني عند نقل الكفالة"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free when transferring sponsorship"
+      },
+      "processing_time": "5-10 أيام",
+      "processing_time_en": "5-10 days",
+      "common_mistakes": [
+        "عدم الحصول على موافقة الكفيل الأول كتابياً",
+        "عدم توقيع عقد عمل واضح ومفصل",
+        "عدم المتابعة مع الجهات المختصة",
+        "نسيان تحديث البيانات الشخصية"
+      ],
+      "common_mistakes_en": [
+        "Not getting written approval from current sponsor",
+        "Not signing clear employment contract",
+        "Not following up with authorities",
+        "Not updating personal data"
+      ],
+      "tips": [
+        "احصل على الموافقة رسمياً من الكفيل الأول",
+        "تأكد من أن العقد الجديد واضح ومفصل",
+        "احتفظ بنسخة من جميع الوثائق",
+        "قد يطلب منك فحص طبي جديد"
+      ],
+      "tips_en": [
+        "Get formal approval from current sponsor",
+        "Ensure new contract is clear and detailed",
+        "Keep copies of all documents",
+        "May need new medical exam"
+      ],
+      "eligibility": {
+        "nationality": "وافد مقيم",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "إقامة سارية وعقد عمل جديد"
+      }
+    },
+    {
+      "id": "muqeem_exit_visa",
+      "name_ar": "تأشيرة الخروج",
+      "name_en": "Exit Visa",
+      "category": "التأشيرات",
+      "category_en": "Visas",
+      "description_ar": "خدمة استخراج تأشيرة الخروج للعامل الراغب في مغادرة المملكة نهائياً",
+      "description_en": "Service to obtain exit visa for worker leaving Saudi Arabia permanently",
+      "requirements": [
+        "جواز سفر ساري",
+        "الإقامة سارية",
+        "استمارة طلب موقعة",
+        "موافقة صاحب العمل",
+        "عدم وجود مخالفات عمل"
+      ],
+      "requirements_en": [
+        "Valid passport",
+        "Valid iqama",
+        "Signed application form",
+        "Employer approval",
+        "No labor violations"
+      ],
+      "steps": [
+        "الحصول على موافقة صاحب العمل",
+        "ملء استمارة الخروج",
+        "الدخول على معايش",
+        "إدخال بيانات الجواز",
+        "تحديد تاريخ الخروج المتوقع",
+        "السداد الإلكتروني",
+        "الحصول على تأشيرة الخروج رقمياً"
+      ],
+      "steps_en": [
+        "Get employer approval",
+        "Fill exit form",
+        "Login to Muqeem",
+        "Enter passport details",
+        "Specify intended exit date",
+        "Pay electronically",
+        "Receive digital exit visa"
+      ],
+      "fees": {
+        "amount": 50,
+        "currency": "SAR",
+        "note": "رسم تأشيرة الخروج"
+      },
+      "fees_en": {
+        "amount": 50,
+        "currency": "SAR",
+        "note": "Exit visa fee"
+      },
+      "processing_time": "فوري",
+      "processing_time_en": "Immediate",
+      "common_mistakes": [
+        "عدم الحصول على موافقة صاحب العمل",
+        "الجواز منتهي الصلاحية",
+        "الإقامة منتهية",
+        "عدم السداد الإلكتروني"
+      ],
+      "common_mistakes_en": [
+        "Not getting employer approval",
+        "Expired passport",
+        "Expired iqama",
+        "Not paying electronically"
+      ],
+      "tips": [
+        "تأشيرة الخروج صالحة لشهر واحد فقط",
+        "يجب مغادرة المملكة قبل انتهاء صلاحيتها",
+        "لا يمكن العودة برقم الإقامة القديم",
+        "احتفظ بنسخة من التأشيرة"
+      ],
+      "tips_en": [
+        "Exit visa valid for one month only",
+        "Must leave before expiry",
+        "Cannot return with old iqama number",
+        "Keep copy of visa"
+      ],
+      "eligibility": {
+        "nationality": "وافد",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "إقامة سارية وموافقة صاحب عمل"
+      }
+    },
+    {
+      "id": "muqeem_family_visit_visa",
+      "name_ar": "تأشيرة زيارة عائلية",
+      "name_en": "Family Visit Visa",
+      "category": "التأشيرات",
+      "category_en": "Visas",
+      "description_ar": "خدمة استخراج تأشيرة زيارة عائلية للعاملين الراغبين في استقدام أقاربهم",
+      "description_en": "Service to obtain family visit visa for workers wanting to bring relatives",
+      "requirements": [
+        "الإقامة سارية للعامل",
+        "جواز الزائر ساري",
+        "خطاب دعوة من الكفيل",
+        "دليل على العلاقة القرابية",
+        "شهادة صحية للزائر"
+      ],
+      "requirements_en": [
+        "Valid iqama of worker",
+        "Visitor's valid passport",
+        "Invitation letter from sponsor",
+        "Proof of relationship",
+        "Health certificate for visitor"
+      ],
+      "steps": [
+        "إعداد خطاب دعوة معتمد",
+        "تقديم الطلب عبر الجهة المسؤولة",
+        "إرسال الوثائق الأصلية",
+        "دفع رسوم التأشيرة",
+        "انتظار الموافقة",
+        "استلام التأشيرة في السفارة",
+        "دخول المملكة بالتأشيرة"
+      ],
+      "steps_en": [
+        "Prepare authorized invitation letter",
+        "Submit application",
+        "Send original documents",
+        "Pay visa fees",
+        "Wait for approval",
+        "Receive visa at embassy",
+        "Enter Saudi Arabia with visa"
+      ],
+      "fees": {
+        "amount": 500,
+        "currency": "SAR",
+        "note": "رسم تأشيرة الزيارة العائلية"
+      },
+      "fees_en": {
+        "amount": 500,
+        "currency": "SAR",
+        "note": "Family visit visa fee"
+      },
+      "processing_time": "5-15 يوم",
+      "processing_time_en": "5-15 days",
+      "common_mistakes": [
+        "خطاب دعوة غير معتمد رسمياً",
+        "عدم وضوح العلاقة القرابية",
+        "جواز الزائر قريب من الانتهاء",
+        "عدم توفير شهادة صحية"
+      ],
+      "common_mistakes_en": [
+        "Unofficial invitation letter",
+        "Unclear relationship proof",
+        "Visitor's passport near expiry",
+        "Missing health certificate"
+      ],
+      "tips": [
+        "استخدم خطاب دعوة معتمد من جهة رسمية",
+        "جواز الزائر يجب أن يكون صالح 6 أشهر",
+        "صلة القرابة يجب أن تكون واضحة وموثقة",
+        "قد تحتاج المراجعة الشخصية في السفارة"
+      ],
+      "tips_en": [
+        "Use officially authorized invitation letter",
+        "Visitor's passport must be valid 6 months",
+        "Relationship must be clear and documented",
+        "May need personal embassy interview"
+      ],
+      "eligibility": {
+        "nationality": "وافد",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "إقامة سارية وعلاقة قرابية موثقة"
+      }
+    },
+    {
+      "id": "muqeem_profession_change",
+      "name_ar": "تغيير المهنة",
+      "name_en": "Profession Change",
+      "category": "الإقامات",
+      "category_en": "Residency",
+      "description_ar": "خدمة تغيير المهنة والتخصص في الإقامة عند التحويل لوظيفة مختلفة",
+      "description_en": "Service to change profession/designation in iqama when transferring to different job",
+      "requirements": [
+        "الإقامة سارية",
+        "عقد عمل جديد بالمهنة الجديدة",
+        "موافقة صاحب العمل",
+        "شهادة تؤيد التخصص الجديد",
+        "استمارة طلب موقعة"
+      ],
+      "requirements_en": [
+        "Valid iqama",
+        "New employment contract",
+        "Employer approval",
+        "Certificate supporting new profession",
+        "Signed application form"
+      ],
+      "steps": [
+        "الحصول على عقد عمل موقع",
+        "تجهيز الشهادات والوثائق",
+        "تقديم الطلب عبر معايش",
+        "إرفاق العقد الجديد",
+        "دفع الرسوم الإدارية",
+        "انتظار الموافقة",
+        "استلام الإقامة الجديدة"
+      ],
+      "steps_en": [
+        "Get signed employment contract",
+        "Prepare certificates and documents",
+        "Submit application via Muqeem",
+        "Attach new contract",
+        "Pay administrative fees",
+        "Wait for approval",
+        "Receive updated iqama"
+      ],
+      "fees": {
+        "amount": 50,
+        "currency": "SAR",
+        "note": "رسم تغيير المهنة"
+      },
+      "fees_en": {
+        "amount": 50,
+        "currency": "SAR",
+        "note": "Profession change fee"
+      },
+      "processing_time": "3-5 أيام",
+      "processing_time_en": "3-5 days",
+      "common_mistakes": [
+        "عدم اتساق العقد مع التخصص الجديد",
+        "عدم وجود شهادة تؤيد المهنة الجديدة",
+        "عدم موافقة صاحب العمل",
+        "تأخر في تقديم الطلب"
+      ],
+      "common_mistakes_en": [
+        "Contract doesn't match new profession",
+        "Missing supporting certificate",
+        "Employer doesn't approve",
+        "Delayed application"
+      ],
+      "tips": [
+        "تأكد من أن العقد والمهنة متطابقة",
+        "احتفظ بنسخة من الشهادات الداعمة",
+        "اسأل صاحب العمل عن الوثائق المطلوبة",
+        "لا تتأخر في تقديم الطلب"
+      ],
+      "tips_en": [
+        "Ensure contract matches profession",
+        "Keep supporting certificates",
+        "Ask employer about required documents",
+        "Don't delay application"
+      ],
+      "eligibility": {
+        "nationality": "وافد",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "إقامة سارية وعقد عمل جديد"
+      }
+    },
+    {
+      "id": "muqeem_check_status",
+      "name_ar": "الاستعلام عن حالة الإقامة",
+      "name_en": "Check Iqama Status",
+      "category": "الخدمات الإدارية",
+      "category_en": "Administrative Services",
+      "description_ar": "خدمة الاستعلام عن حالة الإقامة والطلبات المعلقة",
+      "description_en": "Service to check iqama status and pending applications",
+      "requirements": [
+        "رقم الهوية",
+        "رقم الإقامة",
+        "البريد الإلكتروني",
+        "الوصول لمنصة معايش"
+      ],
+      "requirements_en": [
+        "ID number",
+        "Iqama number",
+        "Email address",
+        "Muqeem platform access"
+      ],
+      "steps": [
+        "الدخول على منصة معايش",
+        "اختيار 'الاستعلامات'",
+        "إدخال رقم الإقامة",
+        "عرض حالة الإقامة",
+        "الاطلاع على الطلبات المعلقة",
+        "معرفة تاريخ الانتهاء",
+        "الحصول على البيانات المطلوبة"
+      ],
+      "steps_en": [
+        "Login to Muqeem",
+        "Select 'Inquiries'",
+        "Enter iqama number",
+        "View iqama status",
+        "Check pending applications",
+        "Know expiry date",
+        "Get required information"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "خدمة مجانية"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free service"
+      },
+      "processing_time": "فوري",
+      "processing_time_en": "Immediate",
+      "common_mistakes": [
+        "عدم الدخول من حساب صحيح",
+        "نسيان رقم الإقامة",
+        "عدم تحديث البريد الإلكتروني"
+      ],
+      "common_mistakes_en": [
+        "Not logging in with correct account",
+        "Forgetting iqama number",
+        "Not updating email"
+      ],
+      "tips": [
+        "احفظ رقم إقامتك في مكان آمن",
+        "حدّث بريدك الإلكتروني",
+        "تحقق من الحالة شهرياً",
+        "احتفظ بنسخة من البيانات"
+      ],
+      "tips_en": [
+        "Save iqama number in safe place",
+        "Update your email",
+        "Check status monthly",
+        "Keep data copy"
+      ],
+      "eligibility": {
+        "nationality": "أي وافد",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "رقم إقامة نشط"
+      }
+    }
+  ]
+}

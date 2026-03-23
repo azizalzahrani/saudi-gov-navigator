@@ -1,0 +1,672 @@
+{
+  "platform": "أبشر",
+  "platform_ar": "أبشر",
+  "platform_en": "Absher",
+  "platform_url": "https://www.absher.sa",
+  "platform_description_ar": "منصة أبشر الوطنية الرائدة لتقديم الخدمات الحكومية الإلكترونية للأفراد والعاملين بالقطاع الخاص",
+  "platform_description_en": "Absher is the national platform for e-government services for citizens and private sector workers",
+  "services": [
+    {
+      "id": "absher_passport_renewal",
+      "name_ar": "تجديد جواز السفر",
+      "name_en": "Passport Renewal",
+      "category": "الجوازات والهويات",
+      "category_en": "Passports & Identity",
+      "description_ar": "خدمة تجديد جواز السفر السعودي بدلاً من المنتهي صلاحيته أو التالف أو المفقود",
+      "description_en": "Service to renew an expired, damaged, or lost Saudi passport",
+      "requirements": [
+        "الهوية الوطنية سارية الصلاحية",
+        "صورة شخصية حديثة بخلفية بيضاء (4×6)",
+        "عدم وجود مخالفات مرورية مستحقة الدفع",
+        "أن لا تكون هناك قيود على جواز السفر"
+      ],
+      "requirements_en": [
+        "Valid national ID",
+        "Recent passport photo (4x6 with white background)",
+        "No outstanding traffic fines",
+        "No restrictions on passport"
+      ],
+      "steps": [
+        "الدخول على منصة أبشر أفراد",
+        "اختيار الخدمات من القائمة الرئيسية",
+        "اختيار 'الجوازات' ثم 'تجديد جواز السفر'",
+        "ملء البيانات المطلوبة (الهوية الوطنية، البيانات الشخصية)",
+        "رفع صورة جواز السفر الحالي وصورة شخصية",
+        "اختيار مقر التسليم (أي فرع جوازات)",
+        "الدفع الإلكتروني عبر البطاقة البنكية",
+        "تأكيد الطلب والحصول على رقم المعاملة",
+        "التوجه للفرع في التاريخ والوقت المحدد"
+      ],
+      "steps_en": [
+        "Login to Absher Afrad",
+        "Select Services from main menu",
+        "Choose Passports > Renew Passport",
+        "Fill in required details (National ID, personal data)",
+        "Upload current passport photo and new personal photo",
+        "Select branch for delivery (any passport office)",
+        "Pay via electronic payment (bank card)",
+        "Confirm application and get transaction number",
+        "Visit the branch on scheduled date and time"
+      ],
+      "fees": {
+        "amount": 300,
+        "currency": "SAR",
+        "note": "للجواز العادي صلاحية 10 سنوات"
+      },
+      "fees_en": {
+        "amount": 300,
+        "currency": "SAR",
+        "note": "For regular passport validity 10 years"
+      },
+      "processing_time": "1-3 أيام عمل",
+      "processing_time_en": "1-3 business days",
+      "common_mistakes": [
+        "عدم تحديث بيانات الهوية الوطنية في معايش",
+        "تقديم صورة شخصية قديمة أو بخلفية غير بيضاء",
+        "عدم سداد المخالفات المرورية قبل التقديم",
+        "نسيان رقم تحويل بطاقة الدفع أو المحفظة الرقمية"
+      ],
+      "common_mistakes_en": [
+        "Not updating national ID data in Muqeem",
+        "Submitting old or non-white background photo",
+        "Not paying traffic fines before application",
+        "Forgetting card or digital wallet transfer details"
+      ],
+      "tips": [
+        "تأكد من صحة بيانات الهوية الوطنية قبل التقديم",
+        "استخدم صورة حديثة بخلفية بيضاء فقط",
+        "يمكنك متابعة الطلب عبر رقم المعاملة",
+        "جميع رسوم التجديد غير مسترجعة"
+      ],
+      "tips_en": [
+        "Verify national ID details before submitting",
+        "Use recent photo with white background only",
+        "Track application using transaction number",
+        "All renewal fees are non-refundable"
+      ],
+      "eligibility": {
+        "nationality": "سعودي",
+        "age_min": 15,
+        "age_max": null,
+        "requirements": "جواز منتهي أو تالف أو مفقود"
+      }
+    },
+    {
+      "id": "absher_national_id",
+      "name_ar": "استخراج بطاقة الهوية الوطنية الجديدة",
+      "name_en": "New National ID Card Issuance",
+      "category": "الجوازات والهويات",
+      "category_en": "Passports & Identity",
+      "description_ar": "خدمة استخراج بطاقة الهوية الوطنية الجديدة (الذكية) الصادرة من وزارة الداخلية",
+      "description_en": "Service to obtain a new smart national ID card issued by Ministry of Interior",
+      "requirements": [
+        "استمارة طلب الهوية موقعة",
+        "صورة شخصية حديثة (4×6)",
+        "بطاقة الهوية القديمة إن وجدت",
+        "إثبات السكن (فاتورة كهرباء أو ماء)",
+        "تحديث البيانات في معايش"
+      ],
+      "requirements_en": [
+        "Signed ID application form",
+        "Recent passport photo (4x6)",
+        "Old ID card if available",
+        "Proof of residence (utility bill)",
+        "Updated data in Muqeem"
+      ],
+      "steps": [
+        "الدخول على أبشر أفراد",
+        "اختيار الهويات والجوازات",
+        "اختيار 'استخراج هوية جديدة'",
+        "ملء استمارة الطلب الإلكترونية",
+        "رفع الوثائق المطلوبة",
+        "اختيار فرع للمراجعة والقياسات البيومترية",
+        "السداد الإلكتروني",
+        "الحضور للفرع في الموعد المحدد للمراجعة",
+        "تسليم البطاقة في الموعد المحدد"
+      ],
+      "steps_en": [
+        "Login to Absher Afrad",
+        "Select IDs and Passports",
+        "Choose 'Issue New ID'",
+        "Fill electronic application form",
+        "Upload required documents",
+        "Select branch for biometric review",
+        "Pay electronically",
+        "Attend branch on scheduled date",
+        "Collect card on designated date"
+      ],
+      "fees": {
+        "amount": 100,
+        "currency": "SAR",
+        "note": "رسم استخراج الهوية الجديدة"
+      },
+      "fees_en": {
+        "amount": 100,
+        "currency": "SAR",
+        "note": "New ID issuance fee"
+      },
+      "processing_time": "أسبوع إلى أسبوعين",
+      "processing_time_en": "1-2 weeks",
+      "common_mistakes": [
+        "عدم تحديث البيانات الشخصية قبل الطلب",
+        "تقديم صور شخصية غير حديثة",
+        "عدم إحضار إثبات السكن",
+        "عدم الحضور في الموعد المحدد"
+      ],
+      "common_mistakes_en": [
+        "Not updating personal data before application",
+        "Submitting non-recent photos",
+        "Not bringing proof of residence",
+        "Missing scheduled appointment"
+      ],
+      "tips": [
+        "البطاقة الذكية صالحة لمدة 15 سنة",
+        "تأكد من حضور جميع أفراد الأسرة معك إن لزم الأمر",
+        "احرص على الحضور في التاريخ المحدد تجنباً للتأخير",
+        "البطاقة الذكية تشمل الخدمات الإلكترونية والأمان البيومتري"
+      ],
+      "tips_en": [
+        "Smart card is valid for 15 years",
+        "Ensure family members attend if needed",
+        "Arrive on scheduled date to avoid delays",
+        "Smart card includes e-services and biometric security"
+      ],
+      "eligibility": {
+        "nationality": "سعودي",
+        "age_min": 15,
+        "age_max": null,
+        "requirements": "سكان المملكة"
+      }
+    },
+    {
+      "id": "absher_traffic_violations",
+      "name_ar": "سداد المخالفات المرورية",
+      "name_en": "Pay Traffic Violations",
+      "category": "المرور",
+      "category_en": "Traffic",
+      "description_ar": "خدمة الاستعلام عن المخالفات المرورية المسجلة على بطاقة الهوية الوطنية وسدادها",
+      "description_en": "Service to inquire about and pay traffic violations registered to your national ID",
+      "requirements": [
+        "بطاقة الهوية الوطنية",
+        "حساب بنكي أو بطاقة ائتمان",
+        "الدخول على منصة أبشر"
+      ],
+      "requirements_en": [
+        "National ID card",
+        "Bank account or credit card",
+        "Absher account access"
+      ],
+      "steps": [
+        "الدخول على أبشر أفراد",
+        "اختيار المرور من الخدمات",
+        "اختيار 'الاستعلام عن المخالفات'",
+        "إدخال رقم الهوية الوطنية",
+        "عرض المخالفات المستحقة",
+        "تحديد المخالفات المراد سدادها",
+        "اختيار طريقة الدفع",
+        "إكمال عملية الدفع",
+        "الحصول على إيصال الدفع"
+      ],
+      "steps_en": [
+        "Login to Absher Afrad",
+        "Select Traffic Services",
+        "Choose 'Inquire About Violations'",
+        "Enter your national ID number",
+        "View outstanding violations",
+        "Select violations to pay",
+        "Choose payment method",
+        "Complete payment process",
+        "Receive payment receipt"
+      ],
+      "fees": {
+        "amount": "متغيرة",
+        "currency": "SAR",
+        "note": "تختلف حسب نوع المخالفة من 100 إلى 1000 ريال"
+      },
+      "fees_en": {
+        "amount": "Variable",
+        "currency": "SAR",
+        "note": "Varies by violation type, from 100 to 1000 SAR"
+      },
+      "processing_time": "فوري",
+      "processing_time_en": "Immediate",
+      "common_mistakes": [
+        "نسيان سداد المخالفات يؤدي لحجب الترخيص",
+        "عدم الاحتفاظ بإيصال الدفع",
+        "الخلط بين المخالفات المختلفة"
+      ],
+      "common_mistakes_en": [
+        "Forgetting to pay can result in license suspension",
+        "Not keeping payment receipt",
+        "Confusing different violation types"
+      ],
+      "tips": [
+        "تفقد مخالفاتك بشكل دوري",
+        "احرص على سداد المخالفات في الوقت المحدد",
+        "احتفظ بالإيصالات للمراجعة",
+        "في حالة عدم الموافقة على المخالفة يمكنك الاعتراض"
+      ],
+      "tips_en": [
+        "Check violations regularly",
+        "Pay fines promptly",
+        "Keep receipts for reference",
+        "You can appeal if you disagree with a violation"
+      ],
+      "eligibility": {
+        "nationality": "سعودي وعامل بالقطاع الخاص",
+        "age_min": 18,
+        "age_max": null,
+        "requirements": "حامل رخصة قيادة سارية"
+      }
+    },
+    {
+      "id": "absher_exit_reentry_visa",
+      "name_ar": "تصريح الخروج والعودة للعامل",
+      "name_en": "Worker Exit and Re-entry Permit",
+      "category": "التأشيرات",
+      "category_en": "Visas",
+      "description_ar": "خدمة استخراج تصريح الخروج والعودة للعامل السعودي والمقيم",
+      "description_en": "Service to obtain exit and re-entry permits for Saudi nationals and residents",
+      "requirements": [
+        "الهوية الوطنية أو جواز السفر ساري الصلاحية",
+        "رخصة العمل سارية",
+        "موافقة الكفيل (في حالة الوافدين)",
+        "عدم وجود قيود على السفر"
+      ],
+      "requirements_en": [
+        "Valid national ID or passport",
+        "Valid work permit",
+        "Sponsor approval (for expatriates)",
+        "No travel restrictions"
+      ],
+      "steps": [
+        "الدخول على أبشر أفراد",
+        "اختيار الخدمات الإلكترونية",
+        "اختيار 'تصريح الخروج والعودة'",
+        "تحديد نوع التصريح (مفرد أو متعدد)",
+        "ملء البيانات الشخصية",
+        "تحديد موعد الخروج المتوقع",
+        "السداد الإلكتروني",
+        "الحصول على التصريح رقمياً"
+      ],
+      "steps_en": [
+        "Login to Absher Afrad",
+        "Select E-Services",
+        "Choose 'Exit and Re-entry Permit'",
+        "Select permit type (single or multiple)",
+        "Enter personal data",
+        "Specify intended exit date",
+        "Pay electronically",
+        "Receive digital permit"
+      ],
+      "fees": {
+        "amount": 100,
+        "currency": "SAR",
+        "note": "للتصريح المفرد، التصريح المتعدد 400 ريال"
+      },
+      "fees_en": {
+        "amount": 100,
+        "currency": "SAR",
+        "note": "Single entry, multiple entry 400 SAR"
+      },
+      "processing_time": "فوري",
+      "processing_time_en": "Immediate",
+      "common_mistakes": [
+        "عدم التحقق من صلاحية الجواز قبل التقديم",
+        "اختيار التصريح المفرد بدلاً من المتعدد",
+        "عدم معرفة نوع الإقامة الحالي",
+        "التأخر في استخراج التصريح قبل السفر"
+      ],
+      "common_mistakes_en": [
+        "Not checking passport validity before applying",
+        "Choosing single instead of multiple entry",
+        "Not knowing current residency status",
+        "Delaying application before travel"
+      ],
+      "tips": [
+        "التصريح المفرد يسمح بخروج واحد فقط",
+        "التصريح المتعدد يسمح بعدة خروجات خلال سنة",
+        "التصريح رقمي ولا حاجة لطباعته في معظم الحالات",
+        "تأكد من أن جواز السفر صالح لمدة 6 أشهر على الأقل"
+      ],
+      "tips_en": [
+        "Single permit allows one exit only",
+        "Multiple entry allows several exits within a year",
+        "Permit is digital, usually no need to print",
+        "Ensure passport is valid for at least 6 months"
+      ],
+      "eligibility": {
+        "nationality": "سعودي وعامل",
+        "age_min": 18,
+        "age_max": null,
+        "requirements": "عامل بعقد صحيح وموافقة من الكفيل"
+      }
+    },
+    {
+      "id": "absher_domestic_worker_visa",
+      "name_ar": "تأشيرة عاملة منزلية",
+      "name_en": "Domestic Worker Visa",
+      "category": "التأشيرات",
+      "category_en": "Visas",
+      "description_ar": "خدمة استخراج تأشيرة العاملة المنزلية (الخادمة) من خلال منصة أبشر",
+      "description_en": "Service to obtain domestic worker (housemaid) visa through Absher platform",
+      "requirements": [
+        "هوية وطنية أو رخصة أجنبية سارية",
+        "شهادة صحية من الفحص الطبي",
+        "عقد العمل موقع",
+        "موافقة صاحب العمل"
+      ],
+      "requirements_en": [
+        "Valid national ID or foreign license",
+        "Medical certificate from health examination",
+        "Signed employment contract",
+        "Employer approval"
+      ],
+      "steps": [
+        "الدخول على أبشر أفراد",
+        "اختيار 'الجوازات والتأشيرات'",
+        "اختيار 'تأشيرة عاملة منزلية'",
+        "تعبئة نموذج الطلب",
+        "رفع الوثائق المطلوبة",
+        "تحديد موعد الفحص الطبي",
+        "إجراء الفحص الطبي",
+        "السداد الإلكتروني",
+        "انتظار قرار الموافقة"
+      ],
+      "steps_en": [
+        "Login to Absher Afrad",
+        "Select Visas and Passports",
+        "Choose Domestic Worker Visa",
+        "Fill application form",
+        "Upload required documents",
+        "Schedule medical examination",
+        "Undergo medical exam",
+        "Pay electronically",
+        "Wait for approval"
+      ],
+      "fees": {
+        "amount": 2000,
+        "currency": "SAR",
+        "note": "رسم التأشيرة + الفحص الطبي"
+      },
+      "fees_en": {
+        "amount": 2000,
+        "currency": "SAR",
+        "note": "Visa fee + medical examination"
+      },
+      "processing_time": "3-5 أيام عمل",
+      "processing_time_en": "3-5 business days",
+      "common_mistakes": [
+        "عدم استكمال الفحص الطبي في الموعد",
+        "عدم توفير عقد عمل واضح ومفصل",
+        "عدم الالتزام برسوم التأمين الصحي",
+        "نسيان بيانات الكفيل الأساسية"
+      ],
+      "common_mistakes_en": [
+        "Not completing medical exam on time",
+        "Not providing clear employment contract",
+        "Not paying health insurance fees",
+        "Missing sponsor details"
+      ],
+      "tips": [
+        "تأكد من أن جميع الوثائق باللغة العربية أو لها ترجمة",
+        "الفحص الطبي ضروري ولا يمكن تجاهله",
+        "احتفظ بنسخة من الطلب لمراجعتك",
+        "قد تحتاج إلى استخراج تصريح عمل إضافي"
+      ],
+      "tips_en": [
+        "Ensure all documents are in Arabic or translated",
+        "Medical exam is mandatory",
+        "Keep application copy for your records",
+        "You may need additional work permit"
+      ],
+      "eligibility": {
+        "nationality": "سعودي",
+        "age_min": 25,
+        "age_max": null,
+        "requirements": "صاحب بيت/سكن محدد"
+      }
+    },
+    {
+      "id": "absher_vehicle_registration",
+      "name_ar": "تجديد تسجيل السيارة",
+      "name_en": "Vehicle Registration Renewal",
+      "category": "المركبات",
+      "category_en": "Vehicles",
+      "description_ar": "خدمة تجديد تسجيل المركبة (رخصة البيانات) عبر منصة أبشر",
+      "description_en": "Service to renew vehicle registration (data plate) through Absher",
+      "requirements": [
+        "هوية وطنية ساري",
+        "رخصة المركبة (البيانات)",
+        "عدم وجود مخالفات مرورية مستحقة",
+        "التأمين الصحي ساري المفعول"
+      ],
+      "requirements_en": [
+        "Valid national ID",
+        "Vehicle license",
+        "No outstanding traffic violations",
+        "Active health insurance"
+      ],
+      "steps": [
+        "الدخول على أبشر أفراد",
+        "اختيار المرور والمركبات",
+        "اختيار 'تجديد تسجيل المركبة'",
+        "إدخال بيانات المركبة ورقم اللوحة",
+        "التحقق من البيانات",
+        "السداد الإلكتروني",
+        "الحصول على رخصة جديدة بريدياً أو من المرور"
+      ],
+      "steps_en": [
+        "Login to Absher Afrad",
+        "Select Traffic and Vehicles",
+        "Choose Vehicle Registration Renewal",
+        "Enter vehicle data and plate number",
+        "Verify data",
+        "Pay electronically",
+        "Receive new license by mail or from traffic dept"
+      ],
+      "fees": {
+        "amount": 125,
+        "currency": "SAR",
+        "note": "السيارة الخصوصية سنة واحدة"
+      },
+      "fees_en": {
+        "amount": 125,
+        "currency": "SAR",
+        "note": "Private car for one year"
+      },
+      "processing_time": "من 5 إلى 10 أيام",
+      "processing_time_en": "5-10 days",
+      "common_mistakes": [
+        "تقديم الطلب بعد انتهاء صلاحية الرخصة",
+        "عدم سداد المخالفات المرورية أولاً",
+        "الخطأ في إدخال بيانات المركبة",
+        "عدم استكمال عملية الدفع"
+      ],
+      "common_mistakes_en": [
+        "Applying after license expiration",
+        "Not paying traffic fines first",
+        "Error in vehicle data entry",
+        "Incomplete payment process"
+      ],
+      "tips": [
+        "يمكنك تجديد الرخصة قبل انتهاء الصلاحية بثلاثة أشهر",
+        "احرص على سداد المخالفات قبل التجديد",
+        "تحقق من البيانات قبل الدفع",
+        "يمكنك متابعة الطلب عبر رقم المعاملة"
+      ],
+      "tips_en": [
+        "You can renew up to 3 months before expiration",
+        "Pay fines before renewal",
+        "Verify data before payment",
+        "Track application using transaction number"
+      ],
+      "eligibility": {
+        "nationality": "أي شخص يمتلك سيارة مسجلة",
+        "age_min": 18,
+        "age_max": null,
+        "requirements": "سيارة مسجلة بأسم صاحب الهوية"
+      }
+    },
+    {
+      "id": "absher_hajj_ummah",
+      "name_ar": "تصريح الحج والعمرة",
+      "name_en": "Hajj and Umrah Permit",
+      "category": "الحج والعمرة",
+      "category_en": "Hajj & Umrah",
+      "description_ar": "خدمة استخراج تصريح الحج والعمرة للمواطنين والمقيمين",
+      "description_en": "Service to obtain Hajj and Umrah permits for citizens and residents",
+      "requirements": [
+        "جواز سفر ساري الصلاحية",
+        "شهادة التطعيم (إن لزم الأمر)",
+        "الهوية الوطنية أو الإقامة",
+        "تأكيد النية من خلال منصة حج الآن"
+      ],
+      "requirements_en": [
+        "Valid passport",
+        "Vaccination certificate (if required)",
+        "National ID or Iqama",
+        "Confirmation of intent through Hajj portal"
+      ],
+      "steps": [
+        "الدخول على منصة حج الآن (Hajj Now)",
+        "تسجيل بيانات الحاج",
+        "اختيار موسم الحج أو العمرة",
+        "ملء استمارة الطلب",
+        "رفع الوثائق المطلوبة",
+        "السداد عبر الطرق المتاحة",
+        "الحصول على التصريح الإلكتروني",
+        "تحضير النسخة المطبوعة قبل السفر"
+      ],
+      "steps_en": [
+        "Login to Hajj Now portal",
+        "Register pilgrim data",
+        "Select Hajj or Umrah season",
+        "Fill application form",
+        "Upload required documents",
+        "Pay through available methods",
+        "Receive electronic permit",
+        "Print before travel"
+      ],
+      "fees": {
+        "amount": "مختلفة",
+        "currency": "SAR",
+        "note": "الحج مجاني للسعودين، رسوم للمقيمين حسب الجهة"
+      },
+      "fees_en": {
+        "amount": "Varies",
+        "currency": "SAR",
+        "note": "Free for Saudis, fees for residents per sponsor"
+      },
+      "processing_time": "يومياً",
+      "processing_time_en": "Daily",
+      "common_mistakes": [
+        "عدم تحديث بيانات الجواز",
+        "نسيان جلب شهادة التطعيم",
+        "عدم الالتزام بالتواريخ المحددة",
+        "عدم طباعة التصريح قبل الذهاب للمسجد الحرام"
+      ],
+      "common_mistakes_en": [
+        "Not updating passport data",
+        "Forgetting vaccination certificate",
+        "Not adhering to specified dates",
+        "Not printing permit before entering Holy Mosque"
+      ],
+      "tips": [
+        "يجب أن يكون الجواز صالح لمدة 6 أشهر على الأقل",
+        "احتفظ بنسخة مطبوعة من التصريح في جميع الأوقات",
+        "تأكد من أن بيانات هاتفك صحيحة للتواصل",
+        "قد تحتاج لشهادة صحية إضافية في بعض الأحيان"
+      ],
+      "tips_en": [
+        "Passport must be valid for at least 6 months",
+        "Always keep printed copy of permit",
+        "Ensure correct phone number for communication",
+        "May need additional health certificate at times"
+      ],
+      "eligibility": {
+        "nationality": "سعودي ومقيم",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "جواز صالح وصحة جيدة"
+      }
+    },
+    {
+      "id": "absher_check_account_status",
+      "name_ar": "الاستعلام عن حالة الحساب والمحفظة",
+      "name_en": "Check Account and Wallet Status",
+      "category": "الخدمات الإدارية",
+      "category_en": "Administrative Services",
+      "description_ar": "خدمة الاستعلام عن حالة الحساب الشخصي والمحفظة الرقمية والرصيد",
+      "description_en": "Service to check personal account status, digital wallet, and balance",
+      "requirements": [
+        "حساب نشط على أبشر",
+        "رقم الهوية الوطنية",
+        "كلمة المرور أو المصادقة البيومترية"
+      ],
+      "requirements_en": [
+        "Active Absher account",
+        "National ID number",
+        "Password or biometric authentication"
+      ],
+      "steps": [
+        "الدخول على أبشر أفراد",
+        "الذهاب إلى 'حسابي'",
+        "عرض معلومات الحساب الشخصية",
+        "الاستعلام عن رصيد المحفظة",
+        "مراجعة السجل المالي والمعاملات",
+        "تحديث البيانات إن لزم الأمر",
+        "حفظ أي وثائق مطلوبة"
+      ],
+      "steps_en": [
+        "Login to Absher Afrad",
+        "Go to 'My Account'",
+        "View personal account information",
+        "Check wallet balance",
+        "Review financial history and transactions",
+        "Update data if needed",
+        "Save required documents"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "خدمة مجانية"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free service"
+      },
+      "processing_time": "فوري",
+      "processing_time_en": "Immediate",
+      "common_mistakes": [
+        "عدم تحديث كلمة المرور بشكل دوري",
+        "نسيان تفعيل المصادقة الثنائية",
+        "عدم حفظ رقم المرجع للمعاملات"
+      ],
+      "common_mistakes_en": [
+        "Not updating password regularly",
+        "Not activating two-factor authentication",
+        "Not saving transaction reference numbers"
+      ],
+      "tips": [
+        "غير كلمة المرور كل ثلاثة أشهر",
+        "فعّل المصادقة الثنائية لأمان أفضل",
+        "احتفظ بسجل للمعاملات الكبيرة",
+        "تحقق من الرصيد قبل إجراء أي عملية دفع"
+      ],
+      "tips_en": [
+        "Change password every 3 months",
+        "Enable two-factor authentication",
+        "Keep record of major transactions",
+        "Check balance before any payment"
+      ],
+      "eligibility": {
+        "nationality": "أي مستخدم",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "حساب نشط على أبشر"
+      }
+    }
+  ]
+}

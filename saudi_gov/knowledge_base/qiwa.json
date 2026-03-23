@@ -1,0 +1,431 @@
+{
+  "platform": "قوى العمل",
+  "platform_ar": "قوى العمل",
+  "platform_en": "Qiwa",
+  "platform_url": "https://qiwa.sa",
+  "platform_description_ar": "منصة قوى العمل الإلكترونية لخدمات العمل والعاملين والحماية",
+  "platform_description_en": "Qiwa e-platform for labor services, workers, and wage protection",
+  "services": [
+    {
+      "id": "qiwa_labor_contract",
+      "name_ar": "توثيق عقد العمل الإلكتروني",
+      "name_en": "Electronic Labor Contract Verification",
+      "category": "العقود",
+      "category_en": "Contracts",
+      "description_ar": "خدمة توثيق وتسجيل عقد العمل إلكترونياً على منصة قوى العمل",
+      "description_en": "Service to verify and register employment contract electronically",
+      "requirements": [
+        "بيانات العامل (الاسم، الهوية، البريد)",
+        "بيانات صاحب العمل",
+        "شروط العقد (الراتب، المهنة، المدة)",
+        "موافقة العامل على الشروط",
+        "توقيع صاحب العمل"
+      ],
+      "requirements_en": [
+        "Worker data (name, ID, email)",
+        "Employer data",
+        "Contract terms (salary, profession, duration)",
+        "Worker acceptance of terms",
+        "Employer signature"
+      ],
+      "steps": [
+        "الدخول إلى منصة قوى العمل",
+        "اختيار 'توثيق عقد العمل'",
+        "إدخال بيانات العامل والصاحب",
+        "تحديد شروط العقد",
+        "رفع الوثائق المطلوبة",
+        "إرسال العقد للعامل للتوقيع",
+        "توقيع العامل الإلكتروني",
+        "تسجيل العقد رسمياً"
+      ],
+      "steps_en": [
+        "Login to Qiwa platform",
+        "Select 'Contract Verification'",
+        "Enter worker and employer data",
+        "Specify contract terms",
+        "Upload required documents",
+        "Send contract to worker for signature",
+        "Worker signs electronically",
+        "Register contract officially"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "خدمة مجانية"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free service"
+      },
+      "processing_time": "فوري",
+      "processing_time_en": "Immediate",
+      "common_mistakes": [
+        "عدم اتساق البيانات بين الطرفين",
+        "راتب لا يتوافق مع سياسة الحد الأدنى",
+        "عدم وضوح مدة العقد",
+        "عدم موافقة العامل على الشروط"
+      ],
+      "common_mistakes_en": [
+        "Data mismatch between parties",
+        "Salary below minimum wage",
+        "Unclear contract duration",
+        "Worker doesn't accept terms"
+      ],
+      "tips": [
+        "تأكد من أن الراتب يتوافق مع الحد الأدنى للأجور",
+        "وضح جميع الشروط والمزايا",
+        "احتفظ بنسخة من العقد",
+        "تأكد من فهم العامل للشروط"
+      ],
+      "tips_en": [
+        "Ensure salary meets minimum wage",
+        "Clarify all terms and benefits",
+        "Keep contract copy",
+        "Ensure worker understands terms"
+      ],
+      "eligibility": {
+        "nationality": "صاحب عمل ووافد",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "حساب نشط على قوى العمل"
+      }
+    },
+    {
+      "id": "qiwa_worker_transfer",
+      "name_ar": "نقل العامل بين الشركات",
+      "name_en": "Worker Transfer Between Companies",
+      "category": "العمالة",
+      "category_en": "Labor",
+      "description_ar": "خدمة نقل تسجيل العامل من شركة إلى أخرى",
+      "description_en": "Service to transfer worker registration from one company to another",
+      "requirements": [
+        "موافقة صاحب العمل الحالي",
+        "عقد عمل جديد من الشركة الجديدة",
+        "بيانات العامل",
+        "خلو السجل من المخالفات",
+        "الموافقة من وزارة العمل"
+      ],
+      "requirements_en": [
+        "Current employer approval",
+        "New employment contract",
+        "Worker data",
+        "Clean record",
+        "Ministry approval"
+      ],
+      "steps": [
+        "الحصول على موافقة صاحب العمل الأول",
+        "توقيع عقد جديد مع الشركة الجديدة",
+        "تقديم الطلب عبر قوى العمل",
+        "رفع الوثائق والعقود",
+        "انتظار الموافقة",
+        "تحديث بيانات العامل",
+        "تسجيل النقل رسمياً"
+      ],
+      "steps_en": [
+        "Get approval from current employer",
+        "Sign new contract with new company",
+        "Submit request via Qiwa",
+        "Upload documents and contracts",
+        "Wait for approval",
+        "Update worker data",
+        "Register transfer officially"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني عند نقل العامل"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free for worker transfer"
+      },
+      "processing_time": "5-10 أيام",
+      "processing_time_en": "5-10 days",
+      "common_mistakes": [
+        "عدم الحصول على موافقة صاحب العمل الأول",
+        "عدم توقيع عقد العمل الجديد",
+        "عدم توفير جميع الوثائق",
+        "تأخر في الاستكمال"
+      ],
+      "common_mistakes_en": [
+        "Not getting first employer approval",
+        "Not signing new contract",
+        "Missing documents",
+        "Delayed completion"
+      ],
+      "tips": [
+        "احصل على موافقة صريحة كتابة",
+        "تأكد من اكتمال العقد الجديد",
+        "احتفظ بنسخة من جميع الوثائق",
+        "تابع الطلب دورياً"
+      ],
+      "tips_en": [
+        "Get written approval",
+        "Ensure new contract is complete",
+        "Keep all document copies",
+        "Follow up regularly"
+      ],
+      "eligibility": {
+        "nationality": "وافد",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "عقد عمل سارة وموافقة الكفيل"
+      }
+    },
+    {
+      "id": "qiwa_wage_protection",
+      "name_ar": "نظام حماية الأجور",
+      "name_en": "Wage Protection System",
+      "category": "الحماية",
+      "category_en": "Protection",
+      "description_ar": "خدمة التحقق من تسديد الرواتب عبر نظام حماية الأجور",
+      "description_en": "Service to verify salary payments through wage protection system",
+      "requirements": [
+        "رقم العامل",
+        "رقم الشركة",
+        "الراتب الشهري المتفق عليه",
+        "حساب بنكي للعامل",
+        "موافقة صاحب العمل على التسجيل"
+      ],
+      "requirements_en": [
+        "Worker number",
+        "Company number",
+        "Agreed monthly salary",
+        "Worker bank account",
+        "Employer registration approval"
+      ],
+      "steps": [
+        "تسجيل العامل في نظام حماية الأجور",
+        "إدخال الراتب الشهري",
+        "تحديد حساب بنكي للتحويل",
+        "التحقق من البيانات",
+        "تفعيل حماية الأجور",
+        "التسديد الشهري المباشر",
+        "متابعة التسديدات"
+      ],
+      "steps_en": [
+        "Register worker in wage protection",
+        "Enter monthly salary",
+        "Specify bank account",
+        "Verify data",
+        "Activate wage protection",
+        "Monthly direct payment",
+        "Track payments"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free"
+      },
+      "processing_time": "فوري",
+      "processing_time_en": "Immediate",
+      "common_mistakes": [
+        "عدم تسجيل الراتب الصحيح",
+        "عدم توفير حساب بنكي صحيح",
+        "عدم المتابعة المنتظمة",
+        "تأخر في الدفع الشهري"
+      ],
+      "common_mistakes_en": [
+        "Not registering correct salary",
+        "Invalid bank account",
+        "Not monitoring regularly",
+        "Late monthly payment"
+      ],
+      "tips": [
+        "تأكد من الراتب المتفق عليه",
+        "استخدم حساب بنكي معتمد",
+        "راقب التسديدات الشهرية",
+        "احتفظ بإيصالات التسديد"
+      ],
+      "tips_en": [
+        "Verify agreed salary",
+        "Use approved bank account",
+        "Monitor monthly payments",
+        "Keep payment receipts"
+      ],
+      "eligibility": {
+        "nationality": "صاحب عمل ووافد",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "عقد عمل موثق"
+      }
+    },
+    {
+      "id": "qiwa_worker_complaint",
+      "name_ar": "تقديم شكوى عمالية",
+      "name_en": "File Labor Complaint",
+      "category": "المنازعات",
+      "category_en": "Disputes",
+      "description_ar": "خدمة تقديم شكوى في منازعات العمل والرواتب",
+      "description_en": "Service to file complaints about labor disputes and wages",
+      "requirements": [
+        "تفاصيل الشكوى",
+        "أدلة وثائق داعمة",
+        "بيانات صاحب العمل",
+        "بيانات العامل",
+        "تاريخ حدوث المشكلة"
+      ],
+      "requirements_en": [
+        "Complaint details",
+        "Supporting documents",
+        "Employer data",
+        "Worker data",
+        "Date of issue"
+      ],
+      "steps": [
+        "الدخول إلى منصة قوى العمل",
+        "اختيار 'تقديم شكوى'",
+        "تحديد نوع الشكوى",
+        "كتابة تفاصيل الشكوى",
+        "رفع الأدلة والوثائق",
+        "تقديم الشكوى رسمياً",
+        "متابعة الشكوى",
+        "حضور الجلسة إن لزم"
+      ],
+      "steps_en": [
+        "Login to Qiwa",
+        "Select 'File Complaint'",
+        "Choose complaint type",
+        "Write complaint details",
+        "Upload evidence",
+        "Submit officially",
+        "Track complaint",
+        "Attend hearing if needed"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "خدمة مجانية"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free service"
+      },
+      "processing_time": "30-60 يوم",
+      "processing_time_en": "30-60 days",
+      "common_mistakes": [
+        "عدم توفير أدلة كافية",
+        "تقديم شكوى بعد انتهاء المدة",
+        "عدم الحضور في الجلسات",
+        "الشكوى غير واضحة"
+      ],
+      "common_mistakes_en": [
+        "Insufficient evidence",
+        "Filing after deadline",
+        "Not attending hearings",
+        "Unclear complaint"
+      ],
+      "tips": [
+        "اجمع كل الأدلة قبل التقديم",
+        "كن واضحاً في تفاصيل الشكوى",
+        "احضر جميع الجلسات",
+        "احتفظ بنسخة من الشكوى"
+      ],
+      "tips_en": [
+        "Gather all evidence first",
+        "Be clear in details",
+        "Attend all hearings",
+        "Keep complaint copy"
+      ],
+      "eligibility": {
+        "nationality": "وافد",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "عقد عمل موثق"
+      }
+    },
+    {
+      "id": "qiwa_employer_registration",
+      "name_ar": "تسجيل صاحب عمل جديد",
+      "name_en": "New Employer Registration",
+      "category": "التسجيل",
+      "category_en": "Registration",
+      "description_ar": "خدمة تسجيل صاحب عمل جديد على منصة قوى العمل",
+      "description_en": "Service to register new employer on Qiwa platform",
+      "requirements": [
+        "السجل التجاري",
+        "رقم الضريبة",
+        "بيانات المالك",
+        "رخصة المهنة",
+        "بيانات الشركة"
+      ],
+      "requirements_en": [
+        "Commercial registration",
+        "Tax number",
+        "Owner details",
+        "Professional license",
+        "Company data"
+      ],
+      "steps": [
+        "الدخول إلى منصة قوى العمل",
+        "اختيار 'تسجيل صاحب عمل'",
+        "إدخال بيانات الشركة",
+        "رفع الوثائق التجارية",
+        "التحقق من البيانات",
+        "إعداد حساب المستخدم",
+        "تفعيل الحساب",
+        "البدء في تسجيل العمال"
+      ],
+      "steps_en": [
+        "Login to Qiwa",
+        "Select 'Register Employer'",
+        "Enter company data",
+        "Upload commercial docs",
+        "Verify data",
+        "Setup user account",
+        "Activate account",
+        "Start registering workers"
+      ],
+      "fees": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "مجاني"
+      },
+      "fees_en": {
+        "amount": 0,
+        "currency": "SAR",
+        "note": "Free"
+      },
+      "processing_time": "1-2 أيام",
+      "processing_time_en": "1-2 days",
+      "common_mistakes": [
+        "بيانات الشركة غير صحيحة",
+        "وثائق ناقصة",
+        "رقم ضريبة غير صحيح",
+        "عدم استكمال التحقق"
+      ],
+      "common_mistakes_en": [
+        "Incorrect company data",
+        "Missing documents",
+        "Wrong tax number",
+        "Incomplete verification"
+      ],
+      "tips": [
+        "تأكد من جميع البيانات قبل التقديم",
+        "اجمع جميع الوثائق مسبقاً",
+        "استخدم البيانات الرسمية",
+        "احتفظ برقم التسجيل"
+      ],
+      "tips_en": [
+        "Verify all data before submission",
+        "Gather all documents first",
+        "Use official data",
+        "Keep registration number"
+      ],
+      "eligibility": {
+        "nationality": "صاحب عمل سعودي أو أجنبي",
+        "age_min": 0,
+        "age_max": null,
+        "requirements": "شركة مسجلة رسمياً"
+      }
+    }
+  ]
+}
