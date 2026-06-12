@@ -70,7 +70,7 @@ class TestSemanticSearch(unittest.TestCase):
         """Test advanced search with multiple filters."""
         results = self.search.advanced_search(
             query="إقامة",
-            platform="معايش",
+            platform="مقيم",
             max_results=5
         )
         self.assertIsInstance(results, list)

@@ -82,12 +82,12 @@ class TestKnowledgeBase(unittest.TestCase):
         """Test that all expected platforms are loaded."""
         expected_platforms = [
             "أبشر",
-            "معايش",
+            "مقيم",
             "قوى العمل",
-            "تواصل",
+            "توكلنا",
             "بلدي",
-            "الهيئة العامة للاستثمار",
-            "التأمينات",
+            "وزارة الاستثمار",
+            "الموارد البشرية والتأمينات الاجتماعية",
             "نطاقات",
         ]
 
