@@ -36,6 +36,16 @@ setup(
     ],
     python_requires=">=3.9",
     install_requires=requirements,
+    extras_require={
+        "dev": [
+            "pytest>=7.0.0",
+            "pytest-cov>=4.0.0",
+            "black>=23.0.0",
+            "flake8>=6.0.0",
+            "isort>=5.12.0",
+            "mypy>=1.0.0",
+        ],
+    },
     include_package_data=True,
     package_data={
         "saudi_gov": ["knowledge_base/*.json"],
