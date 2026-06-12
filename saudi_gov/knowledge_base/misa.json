@@ -1,9 +1,9 @@
 {
-  "platform": "الهيئة العامة للاستثمار",
-  "platform_ar": "الهيئة العامة للاستثمار",
-  "platform_en": "MISA (General Authority for Investment)",
+  "platform": "وزارة الاستثمار",
+  "platform_ar": "وزارة الاستثمار",
+  "platform_en": "MISA (Ministry of Investment)",
   "platform_url": "https://misa.gov.sa",
-  "platform_description_ar": "منصة الهيئة العامة للاستثمار لتسجيل المشاريع والسجل التجاري",
+  "platform_description_ar": "منصة وزارة الاستثمار لتسجيل المشاريع والسجل التجاري",
   "platform_description_en": "MISA platform for project registration and commercial registry",
   "services": [
     {
@@ -12,7 +12,7 @@
       "name_en": "Foreign Investment License",
       "category": "الاستثمار",
       "category_en": "Investment",
-      "description_ar": "استخراج تصريح الاستثمار الأجنبي من الهيئة العامة للاستثمار",
+      "description_ar": "استخراج تصريح الاستثمار الأجنبي من وزارة الاستثمار",
       "description_en": "Issue foreign investment license from MISA",
       "requirements": [
         "خطة العمل التفصيلية",
@@ -439,5 +439,9 @@
         "requirements": "مشروع نشط وموظفين سعوديين"
       }
     }
+  ],
+  "platform_aliases": [
+    "الهيئة العامة للاستثمار",
+    "ساجيا"
   ]
 }

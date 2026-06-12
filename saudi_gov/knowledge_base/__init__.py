@@ -9,7 +9,7 @@ import json
 import os
 from typing import Dict, List, Any, Optional
 
-__all__ = ["load_all_services", "get_platform_services", "get_service_by_id"]
+__all__ = ["load_all_services", "get_platform_services", "get_service_by_id", "search_services"]
 
 
 def _get_kb_dir() -> str:

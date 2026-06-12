@@ -1,9 +1,9 @@
 {
-  "platform": "تواصل",
-  "platform_ar": "تواصل",
+  "platform": "توكلنا",
+  "platform_ar": "توكلنا",
   "platform_en": "Tawakkalna",
-  "platform_url": "https://tawakkalna.sa",
-  "platform_description_ar": "تطبيق تواصل الوطني للخدمات الحكومية والهوية الرقمية",
+  "platform_url": "https://tawakkalna.sdaia.gov.sa",
+  "platform_description_ar": "تطبيق توكلنا الوطني للخدمات الحكومية والهوية الرقمية",
   "platform_description_en": "Tawakkalna mobile app for government services and digital identity",
   "services": [
     {
@@ -12,10 +12,10 @@
       "name_en": "Digital ID Activation",
       "category": "الهوية الرقمية",
       "category_en": "Digital Identity",
-      "description_ar": "خدمة تفعيل الهوية الرقمية عبر تطبيق تواصل",
+      "description_ar": "خدمة تفعيل الهوية الرقمية عبر تطبيق توكلنا",
       "description_en": "Service to activate digital ID through Tawakkalna app",
       "requirements": [
-        "تطبيق تواصل مثبت",
+        "تطبيق توكلنا مثبت",
         "بطاقة الهوية الوطنية أو الإقامة",
         "بيانات الجوال",
         "بريد إلكتروني نشط",
@@ -29,7 +29,7 @@
         "Strong password"
       ],
       "steps": [
-        "تحميل تطبيق تواصل من المتجر",
+        "تحميل تطبيق توكلنا من المتجر",
         "فتح التطبيق والضغط على 'تسجيل جديد'",
         "إدخال رقم الهوية أو الإقامة",
         "التحقق من الرقم المرسل للجوال",
@@ -97,10 +97,10 @@
       "name_en": "Travel Permit",
       "category": "التصاريح",
       "category_en": "Permits",
-      "description_ar": "تطبيق تواصل يصدر تصاريح التنقل والسفر رقمياً",
+      "description_ar": "تطبيق توكلنا يصدر تصاريح التنقل والسفر رقمياً",
       "description_en": "Tawakkalna issues digital travel permits",
       "requirements": [
-        "تطبيق تواصل مفعل",
+        "تطبيق توكلنا مفعل",
         "هوية رقمية نشطة",
         "بيانات صحيحة",
         "الامتثال للشروط"
@@ -112,7 +112,7 @@
         "Compliance with conditions"
       ],
       "steps": [
-        "فتح تطبيق تواصل",
+        "فتح تطبيق توكلنا",
         "اختيار 'التصاريح'",
         "اختيار 'طلب تصريح تنقل'",
         "ملء البيانات المطلوبة",
@@ -183,7 +183,7 @@
       "description_ar": "إصدار شهادات صحية للسفر والعمل",
       "description_en": "Issue health certificates for travel and work",
       "requirements": [
-        "تطبيق تواصل مفعل",
+        "تطبيق توكلنا مفعل",
         "بيانات صحيحة",
         "الفحص الطبي إن لزم",
         "التطعيمات المطلوبة"
@@ -195,7 +195,7 @@
         "Required vaccinations"
       ],
       "steps": [
-        "فتح تطبيق تواصل",
+        "فتح تطبيق توكلنا",
         "اختيار 'الصحة'",
         "اختيار 'شهادة صحية'",
         "اختيار نوع الشهادة",
@@ -259,10 +259,10 @@
       "name_en": "Dependent Services",
       "category": "الأسرة",
       "category_en": "Family",
-      "description_ar": "إدارة خدمات المعالين والأسرة عبر تواصل",
+      "description_ar": "إدارة خدمات المعالين والأسرة عبر توكلنا",
       "description_en": "Manage dependent and family services through Tawakkalna",
       "requirements": [
-        "تطبيق تواصل مفعل",
+        "تطبيق توكلنا مفعل",
         "هوية الرب الأسرة",
         "بيانات المعالين",
         "وثائق العلاقة"
@@ -274,7 +274,7 @@
         "Relationship documents"
       ],
       "steps": [
-        "فتح تطبيق تواصل",
+        "فتح تطبيق توكلنا",
         "اختيار 'الأسرة'",
         "اختيار 'المعالين'",
         "إضافة بيانات المعالين",
@@ -341,7 +341,7 @@
       "description_ar": "تلقي إشعارات رسمية من الجهات الحكومية",
       "description_en": "Receive official notifications from government entities",
       "requirements": [
-        "تطبيق تواصل مفعل",
+        "تطبيق توكلنا مفعل",
         "تفعيل الإشعارات",
         "رقم جوال صحيح",
         "بريد إلكتروني نشط"
@@ -353,7 +353,7 @@
         "Active email"
       ],
       "steps": [
-        "فتح تطبيق تواصل",
+        "فتح تطبيق توكلنا",
         "الذهاب إلى 'الإعدادات'",
         "اختيار 'الإشعارات'",
         "تفعيل جميع الإشعارات المطلوبة",
@@ -408,8 +408,11 @@
         "nationality": "أي مستخدم",
         "age_min": 0,
         "age_max": null,
-        "requirements": "حساب تواصل نشط"
+        "requirements": "حساب توكلنا نشط"
       }
     }
+  ],
+  "platform_aliases": [
+    "تواصل"
   ]
 }

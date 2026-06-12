@@ -1,8 +1,8 @@
 {
-  "platform": "التأمينات",
-  "platform_ar": "التأمينات",
-  "platform_en": "HRSD / Social Insurance",
-  "platform_url": "https://hrsd.org.sa",
+  "platform": "الموارد البشرية والتأمينات الاجتماعية",
+  "platform_ar": "الموارد البشرية والتأمينات الاجتماعية",
+  "platform_en": "HRSD & Social Insurance (GOSI)",
+  "platform_url": "https://www.hrsd.gov.sa",
   "platform_description_ar": "منصة التأمينات الاجتماعية لتسجيل العمال والحصول على المنافع",
   "platform_description_en": "Social insurance platform for worker registration and benefits",
   "services": [
@@ -429,5 +429,10 @@
         "requirements": "منازعة عمل موثقة"
       }
     }
+  ],
+  "platform_aliases": [
+    "التأمينات",
+    "التأمينات الاجتماعية",
+    "الموارد البشرية"
   ]
 }
