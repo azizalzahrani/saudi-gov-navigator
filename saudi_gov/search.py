@@ -37,7 +37,6 @@ ARABIC_STOP_WORDS = {
     "التي",
     "الذي",
     "الخطوات",
-    "الخطوات",
     "عندي",
 }
 
@@ -103,6 +102,7 @@ class SemanticSearch:
                                     platform_name,
                                     platform_data.get("platform_en", ""),
                                     platform_data.get("platform_ar", ""),
+                                    *platform_data.get("platform_aliases", []),
                                 ],
                             )
                         )
@@ -151,6 +151,7 @@ class SemanticSearch:
             platform_name,
             platform_data.get("platform_ar", ""),
             platform_data.get("platform_en", ""),
+            " ".join(platform_data.get("platform_aliases", [])),
             " ".join(service.get("requirements", [])),
             " ".join(service.get("requirements_en", [])),
             " ".join(service.get("steps", [])),
@@ -355,7 +356,7 @@ class SemanticSearch:
                 first_words = " ".join(desc_en.split()[:3])
                 suggestions.add(first_words)
 
-        return list(suggestions)[:max_suggestions]
+        return sorted(suggestions)[:max_suggestions]
 
     def filter_by_category(self, category: str) -> List[Dict[str, Any]]:
         """
@@ -425,16 +426,12 @@ class SemanticSearch:
 
         for indexed_item in self.search_index:
             service = indexed_item["service"]
-            fee_ar = service.get("fees", {}).get("amount", 0)
-            fee_en = service.get("fees_en", {}).get("amount", 0)
+            fees = service.get("fees") or service.get("fees_en") or {}
+            amount = fees.get("amount")
 
-            # Handle string amounts like "متغيرة" or "Varies"
-            if isinstance(fee_ar, (int, float)) and fee_ar <= max_fee:
-                results.append({
-                    "service": service,
-                    "platform": indexed_item["platform"],
-                })
-            elif isinstance(fee_en, (int, float)) and fee_en <= max_fee:
+            # String amounts like "متغيرة" / "Varies" are excluded:
+            # we cannot guarantee they satisfy the fee ceiling.
+            if isinstance(amount, (int, float)) and amount <= max_fee:
                 results.append({
                     "service": service,
                     "platform": indexed_item["platform"],

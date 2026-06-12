@@ -349,7 +349,7 @@ INDEX_HTML = """<!doctype html>
           <div class="quick-actions">
             <button class="secondary" data-scenario="وافد جديد">وافد جديد</button>
             <button class="secondary" data-scenario="تأسيس شركة">تأسيس شركة</button>
-            <button class="secondary" data-scenario="كيف أنقل عاملي في معايش؟">نقل عامل</button>
+            <button class="secondary" data-scenario="كيف أنقل عاملي في مقيم؟">نقل عامل</button>
             <button class="secondary" data-scenario="أنا أريد تجديد جواز سفري، ما الخطوات؟">تجديد جواز السفر</button>
           </div>
         </div>
@@ -386,6 +386,15 @@ INDEX_HTML = """<!doctype html>
       const searchInput = document.getElementById("search-input");
       let activeServiceId = null;
 
+      function esc(value) {
+        return String(value ?? "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#39;");
+      }
+
       async function fetchJson(url) {
         const response = await fetch(url);
         if (!response.ok) {
@@ -396,7 +405,7 @@ INDEX_HTML = """<!doctype html>
 
       function renderPlatforms(platforms) {
         platformsEl.innerHTML = platforms
-          .map((platform) => `<span class="platform-tag">${platform.name_ar} · ${platform.services_count} خدمة</span>`)
+          .map((platform) => `<span class="platform-tag">${esc(platform.name_ar)} · ${esc(platform.services_count)} خدمة</span>`)
           .join("");
       }
 
@@ -407,13 +416,13 @@ INDEX_HTML = """<!doctype html>
         }
 
         resultsEl.innerHTML = items.map((item) => `
-          <article class="result-card ${item.id === activeServiceId ? "active" : ""}" data-id="${item.id}">
-            <h3>${item.name}</h3>
+          <article class="result-card ${item.id === activeServiceId ? "active" : ""}" data-id="${esc(item.id)}">
+            <h3>${esc(item.name)}</h3>
             <div class="meta">
-              <span class="pill">${item.platform}</span>
-              <span class="pill">${item.category}</span>
+              <span class="pill">${esc(item.platform)}</span>
+              <span class="pill">${esc(item.category)}</span>
             </div>
-            <p>${item.description}</p>
+            <p>${esc(item.description)}</p>
           </article>
         `).join("");
 
@@ -423,45 +432,53 @@ INDEX_HTML = """<!doctype html>
       }
 
       function renderDetail(service) {
+        const mistakes = service.common_mistakes || [];
         detailEl.innerHTML = `
           <div class="detail-title">
-            <h2>${service.name}</h2>
-            <p class="detail-copy">${service.description}</p>
+            <h2>${esc(service.name)}</h2>
+            <p class="detail-copy">${esc(service.description)}</p>
           </div>
 
           <div class="stats">
             <div class="stat-box">
               <span>المنصة</span>
-              <strong>${service.platform}</strong>
+              <strong>${esc(service.platform)}</strong>
             </div>
             <div class="stat-box">
               <span>الرسوم</span>
-              <strong>${service.fees_note}</strong>
+              <strong>${esc(service.fees_note)}</strong>
             </div>
             <div class="stat-box">
               <span>وقت المعالجة</span>
-              <strong>${service.processing_time}</strong>
+              <strong>${esc(service.processing_time)}</strong>
             </div>
           </div>
 
           <section class="detail-section">
             <h3>المتطلبات</h3>
-            <ul>${service.requirements.map((item) => `<li>${item}</li>`).join("")}</ul>
+            <ul>${service.requirements.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
           </section>
 
           <section class="detail-section">
             <h3>الخطوات</h3>
-            <ol>${service.steps.map((item) => `<li>${item}</li>`).join("")}</ol>
+            <ol>${service.steps.map((item) => `<li>${esc(item)}</li>`).join("")}</ol>
           </section>
+
+          ${mistakes.length ? `
+          <section class="detail-section">
+            <h3>أخطاء شائعة يجب تجنبها</h3>
+            <ul>${mistakes.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
+          </section>
+          ` : ""}
 
           <section class="detail-section">
             <h3>نصائح مهمة</h3>
-            <ul>${service.tips.map((item) => `<li>${item}</li>`).join("")}</ul>
+            <ul>${service.tips.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
           </section>
 
           <section class="detail-section">
             <h3>رابط المنصة</h3>
-            <p class="detail-copy"><a href="${service.platform_url}" target="_blank" rel="noreferrer">${service.platform_url}</a></p>
+            <p class="detail-copy"><a href="${esc(service.platform_url)}" target="_blank" rel="noreferrer">${esc(service.platform_url)}</a></p>
           </section>
         `;
       }
@@ -601,6 +618,7 @@ class SaudiGovLocalApp:
             "requirements": guide.get("requirements", []),
             "steps": guide.get("steps", []),
             "tips": guide.get("tips", []),
+            "common_mistakes": guide.get("common_mistakes", []),
             "fees_note": fees.get("note", ""),
             "processing_time": guide.get("processing_time", ""),
             "platform": platform_name,
@@ -637,6 +655,11 @@ def create_handler(app: SaudiGovLocalApp):
             try:
                 if parsed.path == "/":
                     self._send_html(INDEX_HTML, include_body=include_body)
+                    return
+
+                if parsed.path == "/favicon.ico":
+                    self.send_response(HTTPStatus.NO_CONTENT)
+                    self.end_headers()
                     return
 
                 if parsed.path == "/health":

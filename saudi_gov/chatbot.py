@@ -5,7 +5,9 @@ Interactive command-line chatbot for Saudi government service guidance.
 دردشة آلية تفاعلية للتوجيه عبر خدمات الحكومة السعودية.
 """
 
+import os
 from typing import Optional
+
 from saudi_gov.agents.navigator_agent import NavigatorAgent
 from saudi_gov.agents.service_finder import ServiceFinder
 from saudi_gov.agents.requirements_agent import RequirementsAgent
@@ -88,7 +90,7 @@ class SaudiGovChatbot:
         """Print available commands."""
         if self.language == "ar":
             print("📋 الأوامر المتاحة:")
-            print("  1. ابحث عن خدمة - اكتب استعلامك أو أسم الخدمة")
+            print("  1. ابحث عن خدمة - اكتب استعلامك أو اسم الخدمة")
             print("  2. اكتب 'المنصات' - لعرض جميع المنصات الحكومية")
             print("  3. اكتب 'الفئات' - لعرض فئات الخدمات")
             print("  4. اكتب 'مساعدة' - لعرض معلومات المساعدة")
@@ -266,7 +268,7 @@ class SaudiGovChatbot:
                 "📚 معلومات المساعدة:\n\n"
                 "هذا البرنامج يساعدك في البحث عن الخدمات الحكومية السعودية.\n\n"
                 "يمكنك:\n"
-                "• البحث عن خدمة - اكتب أسم الخدمة أو وصفها\n"
+                "• البحث عن خدمة - اكتب اسم الخدمة أو وصفها\n"
                 "• عرض المنصات - اكتب 'المنصات'\n"
                 "• عرض الفئات - اكتب 'الفئات'\n"
                 "• الخروج - اكتب 'خروج'\n\n"
@@ -288,7 +290,6 @@ class SaudiGovChatbot:
 def main() -> None:
     """Main entry point for the chatbot."""
     # Detect language from environment or use default
-    import os
     language = os.getenv("LANGUAGE", "ar")
 
     chatbot = SaudiGovChatbot(language=language)

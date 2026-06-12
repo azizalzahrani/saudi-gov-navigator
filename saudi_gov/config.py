@@ -41,7 +41,7 @@ class Config:
     OPENAI_MODEL: str = os.getenv("OPENAI_MODEL", "gpt-4-turbo")
 
     ANTHROPIC_API_KEY: Optional[str] = os.getenv("ANTHROPIC_API_KEY")
-    ANTHROPIC_MODEL: str = os.getenv("ANTHROPIC_MODEL", "claude-opus")
+    ANTHROPIC_MODEL: str = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-5")
 
     # Logging Configuration
     DEBUG: bool = os.getenv("DEBUG", "false").lower() == "true"
@@ -54,11 +54,11 @@ class Config:
     MUQEEM_API_ENDPOINT: str = os.getenv("MUQEEM_API_ENDPOINT", "https://muqeem.sa")
     QIWA_API_ENDPOINT: str = os.getenv("QIWA_API_ENDPOINT", "https://qiwa.sa")
     TAWAKKALNA_API_ENDPOINT: str = os.getenv(
-        "TAWAKKALNA_API_ENDPOINT", "https://tawakkalna.sa"
+        "TAWAKKALNA_API_ENDPOINT", "https://tawakkalna.sdaia.gov.sa"
     )
     BALADY_API_ENDPOINT: str = os.getenv("BALADY_API_ENDPOINT", "https://balady.gov.sa")
     MISA_API_ENDPOINT: str = os.getenv("MISA_API_ENDPOINT", "https://misa.gov.sa")
-    HRSD_API_ENDPOINT: str = os.getenv("HRSD_API_ENDPOINT", "https://hrsd.org.sa")
+    HRSD_API_ENDPOINT: str = os.getenv("HRSD_API_ENDPOINT", "https://www.hrsd.gov.sa")
 
     # Application Metadata
     VERSION: str = "0.1.0"
@@ -126,15 +126,26 @@ class Config:
 
 
 # Export common patterns
+# Canonical Arabic platform names (must match platform_ar in knowledge_base JSON files)
 PLATFORMS = {
     "أبشر": "absher",
-    "معايش": "muqeem",
+    "مقيم": "muqeem",
     "قوى العمل": "qiwa",
-    "تواصل": "tawakkalna",
+    "توكلنا": "tawakkalna",
     "بلدي": "balady",
-    "الهيئة العامة للاستثمار": "misa",
-    "التأمينات": "hrsd",
+    "وزارة الاستثمار": "misa",
+    "الموارد البشرية والتأمينات الاجتماعية": "hrsd",
     "نطاقات": "nitaqat",
+}
+
+# Legacy/colloquial names kept as aliases so older queries keep working
+PLATFORM_ALIASES = {
+    "معايش": "muqeem",
+    "تواصل": "tawakkalna",
+    "الهيئة العامة للاستثمار": "misa",
+    "ساجيا": "misa",
+    "التأمينات": "hrsd",
+    "التأمينات الاجتماعية": "hrsd",
 }
 
 # Common SAR currency format
