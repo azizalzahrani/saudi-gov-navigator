@@ -5,6 +5,7 @@ Utility functions for handling fees and currency calculations.
 وظائف مساعدة للتعامل مع الرسوم والعملات.
 """
 
+import re
 from typing import Dict, List, Optional, Union
 
 
@@ -297,7 +298,6 @@ def get_processing_time_estimate(services: List[Dict]) -> Dict:
         processing_time = service.get("processing_time", "")
         if "يوم" in processing_time:
             # Extract number of days
-            import re
             match = re.search(r'(\d+)', processing_time)
             if match:
                 days = int(match.group(1))

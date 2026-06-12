@@ -255,9 +255,27 @@ def validate_arabic_phone(phone: str) -> bool:
     return any(re.match(pattern, cleaned) for pattern in patterns)
 
 
+def _luhn_checksum_valid(digits: str) -> bool:
+    """
+    Validate a digit string with the Luhn algorithm.
+
+    Saudi national ID and Iqama numbers use a Luhn check digit.
+    """
+    total = 0
+    # Process from the rightmost digit; double every second digit.
+    for index, char in enumerate(reversed(digits)):
+        digit = int(char)
+        if index % 2 == 1:
+            digit *= 2
+            if digit > 9:
+                digit -= 9
+        total += digit
+    return total % 10 == 0
+
+
 def validate_saudi_id(id_number: str) -> bool:
     """
-    Validate a Saudi Arabian National ID number (Ihram).
+    Validate a Saudi Arabian National ID number (رقم الهوية الوطنية).
 
     التحقق من رقم الهوية الوطنية السعودية.
 
@@ -274,9 +292,7 @@ def validate_saudi_id(id_number: str) -> bool:
     if not re.match(r'^1\d{9}$', cleaned):
         return False
 
-    # Basic check digit validation
-    # (simplified version - actual algorithm is more complex)
-    return len(cleaned) == 10
+    return _luhn_checksum_valid(cleaned)
 
 
 def validate_iqama(iqama_number: str) -> bool:
@@ -298,7 +314,7 @@ def validate_iqama(iqama_number: str) -> bool:
     if not re.match(r'^2\d{9}$', cleaned):
         return False
 
-    return len(cleaned) == 10
+    return _luhn_checksum_valid(cleaned)
 
 
 def format_phone_number(phone: str, format_type: str = "saudi") -> str:
@@ -317,22 +333,21 @@ def format_phone_number(phone: str, format_type: str = "saudi") -> str:
     # Remove all non-digit characters except +
     cleaned = re.sub(r'[^\d+]', '', phone)
 
-    if format_type == "international":
-        # Format as +966 XX XXX XXXX
-        if cleaned.startswith('966') or cleaned.startswith('+966'):
-            cleaned = cleaned.replace('+', '').lstrip('0')
-            if cleaned.startswith('966'):
-                cleaned = cleaned[3:]
-            return f"+966 {cleaned[:2]} {cleaned[2:5]} {cleaned[5:]}"
-    else:  # Saudi format
-        # Format as 05X XXX XXXX
-        if cleaned.startswith('+966'):
-            cleaned = cleaned[4:]  # Remove +966
-            return f"05{cleaned} {cleaned[2:5]} {cleaned[5:]}"
-        elif cleaned.startswith('00966'):
-            cleaned = cleaned[5:]
-            return f"05{cleaned} {cleaned[2:5]} {cleaned[5:]}"
-        elif cleaned.startswith('05'):
-            return f"{cleaned[:3]} {cleaned[3:6]} {cleaned[6:]}"
+    # Normalize to the 9-digit national number (5XXXXXXXX)
+    national = cleaned
+    for prefix in ('+966', '00966', '966'):
+        if national.startswith(prefix):
+            national = national[len(prefix):]
+            break
+    national = national.lstrip('0') if national.startswith('0') else national
 
-    return phone
+    if not re.match(r'^5\d{8}$', national):
+        return phone  # Not a recognizable Saudi mobile number
+
+    if format_type == "international":
+        # Format as +966 5X XXX XXXX
+        return f"+966 {national[:2]} {national[2:5]} {national[5:]}"
+
+    # Saudi local format: 05X XXX XXXX
+    local = f"0{national}"
+    return f"{local[:3]} {local[3:6]} {local[6:]}"
